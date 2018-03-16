@@ -1,7 +1,7 @@
 # AlgorithmDesign
 
 This semester I attend a class, which is Design and Analysis of Algorithm. And the repository will keep my program code of homework.
-It just record my code. Get C++ program back.
+It just records my code. Get C++ program back.
 
 ## Run
 
