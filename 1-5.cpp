@@ -8,6 +8,7 @@
 #include <iostream>
 #include <fstream>
 #include <vector>
+#include <cmath>
 
 using namespace std;
 
@@ -52,8 +53,10 @@ int main() {
     }
 
     /* find the max value. */
-    for (long i = nums.size(); i - 3 >= 0; i--) {
-        temp = nums[i] - nums[i-3];
+    // cout << "\t" << nums[0];
+    for (long i = nums.size() - 1; i - 3 >= 0; i--) {
+        temp = abs(nums[i] - nums[i-3]);
+        // cout << "\n" << "nums: " << nums[i] << " nums: " << nums[i-3] << " temp: " << temp << "\t";
         if (temp > max) {
             max = temp;
         }
