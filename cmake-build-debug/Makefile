@@ -123,32 +123,32 @@ AlgorithmDesign/fast:
 	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/build
 .PHONY : AlgorithmDesign/fast
 
-1-5.o: 1-5.cpp.o
+1-5-maxgap.o: 1-5-maxgap.cpp.o
 
-.PHONY : 1-5.o
+.PHONY : 1-5-maxgap.o
 
 # target to build an object file
-1-5.cpp.o:
-	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/1-5.cpp.o
-.PHONY : 1-5.cpp.o
+1-5-maxgap.cpp.o:
+	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/1-5-maxgap.cpp.o
+.PHONY : 1-5-maxgap.cpp.o
 
-1-5.i: 1-5.cpp.i
+1-5-maxgap.i: 1-5-maxgap.cpp.i
 
-.PHONY : 1-5.i
+.PHONY : 1-5-maxgap.i
 
 # target to preprocess a source file
-1-5.cpp.i:
-	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/1-5.cpp.i
-.PHONY : 1-5.cpp.i
+1-5-maxgap.cpp.i:
+	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/1-5-maxgap.cpp.i
+.PHONY : 1-5-maxgap.cpp.i
 
-1-5.s: 1-5.cpp.s
+1-5-maxgap.s: 1-5-maxgap.cpp.s
 
-.PHONY : 1-5.s
+.PHONY : 1-5-maxgap.s
 
 # target to generate assembly for a file
-1-5.cpp.s:
-	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/1-5.cpp.s
-.PHONY : 1-5.cpp.s
+1-5-maxgap.cpp.s:
+	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/1-5-maxgap.cpp.s
+.PHONY : 1-5-maxgap.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... AlgorithmDesign"
-	@echo "... 1-5.o"
-	@echo "... 1-5.i"
-	@echo "... 1-5.s"
+	@echo "... 1-5-maxgap.o"
+	@echo "... 1-5-maxgap.i"
+	@echo "... 1-5-maxgap.s"
 .PHONY : help
 
 

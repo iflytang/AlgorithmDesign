@@ -6,11 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/tsf/CLionProjects/AlgorithmDesign/1-5.cpp
+/home/tsf/CLionProjects/AlgorithmDesign/1-5-maxgap.cpp
 iostream
 -
 fstream
 -
 vector
+-
+cmath
 -
 

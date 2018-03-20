@@ -3,5 +3,5 @@ project(AlgorithmDesign)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES 1-5.cpp)
+set(SOURCE_FILES 1-5-maxgap.cpp)
 add_executable(AlgorithmDesign ${SOURCE_FILES})
