@@ -57,38 +57,38 @@ include CMakeFiles/AlgorithmDesign.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/AlgorithmDesign.dir/flags.make
 
-CMakeFiles/AlgorithmDesign.dir/2-11.cpp.o: CMakeFiles/AlgorithmDesign.dir/flags.make
-CMakeFiles/AlgorithmDesign.dir/2-11.cpp.o: ../2-11.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tsf/CLionProjects/AlgorithmDesign/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/AlgorithmDesign.dir/2-11.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AlgorithmDesign.dir/2-11.cpp.o -c /home/tsf/CLionProjects/AlgorithmDesign/2-11.cpp
+CMakeFiles/AlgorithmDesign.dir/test.cpp.o: CMakeFiles/AlgorithmDesign.dir/flags.make
+CMakeFiles/AlgorithmDesign.dir/test.cpp.o: ../test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tsf/CLionProjects/AlgorithmDesign/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/AlgorithmDesign.dir/test.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AlgorithmDesign.dir/test.cpp.o -c /home/tsf/CLionProjects/AlgorithmDesign/test.cpp
 
-CMakeFiles/AlgorithmDesign.dir/2-11.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AlgorithmDesign.dir/2-11.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tsf/CLionProjects/AlgorithmDesign/2-11.cpp > CMakeFiles/AlgorithmDesign.dir/2-11.cpp.i
+CMakeFiles/AlgorithmDesign.dir/test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AlgorithmDesign.dir/test.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tsf/CLionProjects/AlgorithmDesign/test.cpp > CMakeFiles/AlgorithmDesign.dir/test.cpp.i
 
-CMakeFiles/AlgorithmDesign.dir/2-11.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AlgorithmDesign.dir/2-11.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tsf/CLionProjects/AlgorithmDesign/2-11.cpp -o CMakeFiles/AlgorithmDesign.dir/2-11.cpp.s
+CMakeFiles/AlgorithmDesign.dir/test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AlgorithmDesign.dir/test.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tsf/CLionProjects/AlgorithmDesign/test.cpp -o CMakeFiles/AlgorithmDesign.dir/test.cpp.s
 
-CMakeFiles/AlgorithmDesign.dir/2-11.cpp.o.requires:
+CMakeFiles/AlgorithmDesign.dir/test.cpp.o.requires:
 
-.PHONY : CMakeFiles/AlgorithmDesign.dir/2-11.cpp.o.requires
+.PHONY : CMakeFiles/AlgorithmDesign.dir/test.cpp.o.requires
 
-CMakeFiles/AlgorithmDesign.dir/2-11.cpp.o.provides: CMakeFiles/AlgorithmDesign.dir/2-11.cpp.o.requires
-	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/2-11.cpp.o.provides.build
-.PHONY : CMakeFiles/AlgorithmDesign.dir/2-11.cpp.o.provides
+CMakeFiles/AlgorithmDesign.dir/test.cpp.o.provides: CMakeFiles/AlgorithmDesign.dir/test.cpp.o.requires
+	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/test.cpp.o.provides.build
+.PHONY : CMakeFiles/AlgorithmDesign.dir/test.cpp.o.provides
 
-CMakeFiles/AlgorithmDesign.dir/2-11.cpp.o.provides.build: CMakeFiles/AlgorithmDesign.dir/2-11.cpp.o
+CMakeFiles/AlgorithmDesign.dir/test.cpp.o.provides.build: CMakeFiles/AlgorithmDesign.dir/test.cpp.o
 
 
 # Object files for target AlgorithmDesign
 AlgorithmDesign_OBJECTS = \
-"CMakeFiles/AlgorithmDesign.dir/2-11.cpp.o"
+"CMakeFiles/AlgorithmDesign.dir/test.cpp.o"
 
 # External object files for target AlgorithmDesign
 AlgorithmDesign_EXTERNAL_OBJECTS =
 
-AlgorithmDesign: CMakeFiles/AlgorithmDesign.dir/2-11.cpp.o
+AlgorithmDesign: CMakeFiles/AlgorithmDesign.dir/test.cpp.o
 AlgorithmDesign: CMakeFiles/AlgorithmDesign.dir/build.make
 AlgorithmDesign: CMakeFiles/AlgorithmDesign.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tsf/CLionProjects/AlgorithmDesign/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable AlgorithmDesign"
@@ -99,7 +99,7 @@ CMakeFiles/AlgorithmDesign.dir/build: AlgorithmDesign
 
 .PHONY : CMakeFiles/AlgorithmDesign.dir/build
 
-CMakeFiles/AlgorithmDesign.dir/requires: CMakeFiles/AlgorithmDesign.dir/2-11.cpp.o.requires
+CMakeFiles/AlgorithmDesign.dir/requires: CMakeFiles/AlgorithmDesign.dir/test.cpp.o.requires
 
 .PHONY : CMakeFiles/AlgorithmDesign.dir/requires
 

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/tsf/CLionProjects/AlgorithmDesign/test.cpp
+/home/tsf/CLionProjects/AlgorithmDesign/test.c
 iostream
 -
 vector

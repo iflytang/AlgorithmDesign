@@ -123,32 +123,32 @@ AlgorithmDesign/fast:
 	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/build
 .PHONY : AlgorithmDesign/fast
 
-2-11.o: 2-11.cpp.o
+test.o: test.cpp.o
 
-.PHONY : 2-11.o
+.PHONY : test.o
 
 # target to build an object file
-2-11.cpp.o:
-	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/2-11.cpp.o
-.PHONY : 2-11.cpp.o
+test.cpp.o:
+	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/test.cpp.o
+.PHONY : test.cpp.o
 
-2-11.i: 2-11.cpp.i
+test.i: test.cpp.i
 
-.PHONY : 2-11.i
+.PHONY : test.i
 
 # target to preprocess a source file
-2-11.cpp.i:
-	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/2-11.cpp.i
-.PHONY : 2-11.cpp.i
+test.cpp.i:
+	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/test.cpp.i
+.PHONY : test.cpp.i
 
-2-11.s: 2-11.cpp.s
+test.s: test.cpp.s
 
-.PHONY : 2-11.s
+.PHONY : test.s
 
 # target to generate assembly for a file
-2-11.cpp.s:
-	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/2-11.cpp.s
-.PHONY : 2-11.cpp.s
+test.cpp.s:
+	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/test.cpp.s
+.PHONY : test.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... AlgorithmDesign"
-	@echo "... 2-11.o"
-	@echo "... 2-11.i"
-	@echo "... 2-11.s"
+	@echo "... test.o"
+	@echo "... test.i"
+	@echo "... test.s"
 .PHONY : help
 
 
