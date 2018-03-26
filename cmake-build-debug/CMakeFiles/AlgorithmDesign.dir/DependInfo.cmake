@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/tsf/CLionProjects/AlgorithmDesign/1-5-maxgap.cpp" "/home/tsf/CLionProjects/AlgorithmDesign/cmake-build-debug/CMakeFiles/AlgorithmDesign.dir/1-5-maxgap.cpp.o"
+  "/home/tsf/CLionProjects/AlgorithmDesign/2-11.cpp" "/home/tsf/CLionProjects/AlgorithmDesign/cmake-build-debug/CMakeFiles/AlgorithmDesign.dir/2-11.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
