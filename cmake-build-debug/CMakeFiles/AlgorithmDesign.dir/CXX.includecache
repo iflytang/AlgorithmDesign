@@ -6,9 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/tsf/CLionProjects/AlgorithmDesign/test.cpp
+/home/tsf/CLionProjects/AlgorithmDesign/test_void.cpp
 iostream
 -
 vector
+-
+cstring
 -
 

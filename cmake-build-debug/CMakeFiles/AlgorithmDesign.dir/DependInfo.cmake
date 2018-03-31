@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/tsf/CLionProjects/AlgorithmDesign/test.cpp" "/home/tsf/CLionProjects/AlgorithmDesign/cmake-build-debug/CMakeFiles/AlgorithmDesign.dir/test.cpp.o"
+  "/home/tsf/CLionProjects/AlgorithmDesign/test_void.cpp" "/home/tsf/CLionProjects/AlgorithmDesign/cmake-build-debug/CMakeFiles/AlgorithmDesign.dir/test_void.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
