@@ -12,17 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="581f0225-bdab-47c8-a373-91345b23ea16" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AlgorithmDesign.dir/test_void.cpp.o" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/AlgorithmDesign" afterPath="$PROJECT_DIR$/cmake-build-debug/AlgorithmDesign" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/AlgorithmDesign.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/AlgorithmDesign.cbp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AlgorithmDesign.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AlgorithmDesign.dir/CXX.includecache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AlgorithmDesign.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AlgorithmDesign.dir/DependInfo.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AlgorithmDesign.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AlgorithmDesign.dir/build.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AlgorithmDesign.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AlgorithmDesign.dir/cmake_clean.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AlgorithmDesign.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AlgorithmDesign.dir/link.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AlgorithmDesign.dir/test_reference.cpp.o" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_reference.cpp" afterPath="$PROJECT_DIR$/test_reference.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -72,8 +63,8 @@
       <file leaf-file-name="test_reference.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_reference.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="55" lean-forward="false" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
+            <state relative-caret-position="383">
+              <caret line="32" column="16" lean-forward="false" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -461,12 +452,12 @@
       <workItem from="1521255911823" duration="2662000" />
       <workItem from="1521545500562" duration="15963000" />
       <workItem from="1522028757524" duration="8951000" />
-      <workItem from="1522242411309" duration="13681000" />
+      <workItem from="1522242411309" duration="14467000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50926000" />
+    <option name="totallyTimeSpent" value="51712000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -892,8 +883,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_reference.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="55" lean-forward="false" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
+        <state relative-caret-position="383">
+          <caret line="32" column="16" lean-forward="false" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
           <folding />
         </state>
       </provider>
