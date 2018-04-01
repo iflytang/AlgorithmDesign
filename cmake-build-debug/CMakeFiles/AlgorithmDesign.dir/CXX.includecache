@@ -6,11 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/tsf/CLionProjects/AlgorithmDesign/test_void.cpp
+/home/tsf/CLionProjects/AlgorithmDesign/test_reference.cpp
 iostream
--
-vector
--
-cstring
 -
 

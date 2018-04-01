@@ -57,38 +57,38 @@ include CMakeFiles/AlgorithmDesign.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/AlgorithmDesign.dir/flags.make
 
-CMakeFiles/AlgorithmDesign.dir/test_void.cpp.o: CMakeFiles/AlgorithmDesign.dir/flags.make
-CMakeFiles/AlgorithmDesign.dir/test_void.cpp.o: ../test_void.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tsf/CLionProjects/AlgorithmDesign/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/AlgorithmDesign.dir/test_void.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AlgorithmDesign.dir/test_void.cpp.o -c /home/tsf/CLionProjects/AlgorithmDesign/test_void.cpp
+CMakeFiles/AlgorithmDesign.dir/test_reference.cpp.o: CMakeFiles/AlgorithmDesign.dir/flags.make
+CMakeFiles/AlgorithmDesign.dir/test_reference.cpp.o: ../test_reference.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tsf/CLionProjects/AlgorithmDesign/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/AlgorithmDesign.dir/test_reference.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AlgorithmDesign.dir/test_reference.cpp.o -c /home/tsf/CLionProjects/AlgorithmDesign/test_reference.cpp
 
-CMakeFiles/AlgorithmDesign.dir/test_void.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AlgorithmDesign.dir/test_void.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tsf/CLionProjects/AlgorithmDesign/test_void.cpp > CMakeFiles/AlgorithmDesign.dir/test_void.cpp.i
+CMakeFiles/AlgorithmDesign.dir/test_reference.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AlgorithmDesign.dir/test_reference.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tsf/CLionProjects/AlgorithmDesign/test_reference.cpp > CMakeFiles/AlgorithmDesign.dir/test_reference.cpp.i
 
-CMakeFiles/AlgorithmDesign.dir/test_void.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AlgorithmDesign.dir/test_void.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tsf/CLionProjects/AlgorithmDesign/test_void.cpp -o CMakeFiles/AlgorithmDesign.dir/test_void.cpp.s
+CMakeFiles/AlgorithmDesign.dir/test_reference.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AlgorithmDesign.dir/test_reference.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tsf/CLionProjects/AlgorithmDesign/test_reference.cpp -o CMakeFiles/AlgorithmDesign.dir/test_reference.cpp.s
 
-CMakeFiles/AlgorithmDesign.dir/test_void.cpp.o.requires:
+CMakeFiles/AlgorithmDesign.dir/test_reference.cpp.o.requires:
 
-.PHONY : CMakeFiles/AlgorithmDesign.dir/test_void.cpp.o.requires
+.PHONY : CMakeFiles/AlgorithmDesign.dir/test_reference.cpp.o.requires
 
-CMakeFiles/AlgorithmDesign.dir/test_void.cpp.o.provides: CMakeFiles/AlgorithmDesign.dir/test_void.cpp.o.requires
-	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/test_void.cpp.o.provides.build
-.PHONY : CMakeFiles/AlgorithmDesign.dir/test_void.cpp.o.provides
+CMakeFiles/AlgorithmDesign.dir/test_reference.cpp.o.provides: CMakeFiles/AlgorithmDesign.dir/test_reference.cpp.o.requires
+	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/test_reference.cpp.o.provides.build
+.PHONY : CMakeFiles/AlgorithmDesign.dir/test_reference.cpp.o.provides
 
-CMakeFiles/AlgorithmDesign.dir/test_void.cpp.o.provides.build: CMakeFiles/AlgorithmDesign.dir/test_void.cpp.o
+CMakeFiles/AlgorithmDesign.dir/test_reference.cpp.o.provides.build: CMakeFiles/AlgorithmDesign.dir/test_reference.cpp.o
 
 
 # Object files for target AlgorithmDesign
 AlgorithmDesign_OBJECTS = \
-"CMakeFiles/AlgorithmDesign.dir/test_void.cpp.o"
+"CMakeFiles/AlgorithmDesign.dir/test_reference.cpp.o"
 
 # External object files for target AlgorithmDesign
 AlgorithmDesign_EXTERNAL_OBJECTS =
 
-AlgorithmDesign: CMakeFiles/AlgorithmDesign.dir/test_void.cpp.o
+AlgorithmDesign: CMakeFiles/AlgorithmDesign.dir/test_reference.cpp.o
 AlgorithmDesign: CMakeFiles/AlgorithmDesign.dir/build.make
 AlgorithmDesign: CMakeFiles/AlgorithmDesign.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tsf/CLionProjects/AlgorithmDesign/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable AlgorithmDesign"
@@ -99,7 +99,7 @@ CMakeFiles/AlgorithmDesign.dir/build: AlgorithmDesign
 
 .PHONY : CMakeFiles/AlgorithmDesign.dir/build
 
-CMakeFiles/AlgorithmDesign.dir/requires: CMakeFiles/AlgorithmDesign.dir/test_void.cpp.o.requires
+CMakeFiles/AlgorithmDesign.dir/requires: CMakeFiles/AlgorithmDesign.dir/test_reference.cpp.o.requires
 
 .PHONY : CMakeFiles/AlgorithmDesign.dir/requires
 
