@@ -6,13 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/tsf/CLionProjects/AlgorithmDesign/test_void.cpp
+/home/tsf/CLionProjects/AlgorithmDesign/3-2-edit_distance.cpp
 iostream
 -
-vector
+fstream
 -
 cstring
--
-netinet/in.h
 -
 

@@ -123,32 +123,32 @@ AlgorithmDesign/fast:
 	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/build
 .PHONY : AlgorithmDesign/fast
 
-test_void.o: test_void.cpp.o
+3-2-edit_distance.o: 3-2-edit_distance.cpp.o
 
-.PHONY : test_void.o
+.PHONY : 3-2-edit_distance.o
 
 # target to build an object file
-test_void.cpp.o:
-	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/test_void.cpp.o
-.PHONY : test_void.cpp.o
+3-2-edit_distance.cpp.o:
+	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/3-2-edit_distance.cpp.o
+.PHONY : 3-2-edit_distance.cpp.o
 
-test_void.i: test_void.cpp.i
+3-2-edit_distance.i: 3-2-edit_distance.cpp.i
 
-.PHONY : test_void.i
+.PHONY : 3-2-edit_distance.i
 
 # target to preprocess a source file
-test_void.cpp.i:
-	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/test_void.cpp.i
-.PHONY : test_void.cpp.i
+3-2-edit_distance.cpp.i:
+	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/3-2-edit_distance.cpp.i
+.PHONY : 3-2-edit_distance.cpp.i
 
-test_void.s: test_void.cpp.s
+3-2-edit_distance.s: 3-2-edit_distance.cpp.s
 
-.PHONY : test_void.s
+.PHONY : 3-2-edit_distance.s
 
 # target to generate assembly for a file
-test_void.cpp.s:
-	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/test_void.cpp.s
-.PHONY : test_void.cpp.s
+3-2-edit_distance.cpp.s:
+	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/3-2-edit_distance.cpp.s
+.PHONY : 3-2-edit_distance.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... AlgorithmDesign"
-	@echo "... test_void.o"
-	@echo "... test_void.i"
-	@echo "... test_void.s"
+	@echo "... 3-2-edit_distance.o"
+	@echo "... 3-2-edit_distance.i"
+	@echo "... 3-2-edit_distance.s"
 .PHONY : help
 
 

@@ -3,5 +3,5 @@ project(AlgorithmDesign)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES test_void.cpp)
+set(SOURCE_FILES 3-2-edit_distance.cpp)
 add_executable(AlgorithmDesign ${SOURCE_FILES})
