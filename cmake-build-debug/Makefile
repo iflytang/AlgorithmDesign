@@ -123,32 +123,32 @@ AlgorithmDesign/fast:
 	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/build
 .PHONY : AlgorithmDesign/fast
 
-test_reference.o: test_reference.cpp.o
+test_void.o: test_void.cpp.o
 
-.PHONY : test_reference.o
+.PHONY : test_void.o
 
 # target to build an object file
-test_reference.cpp.o:
-	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/test_reference.cpp.o
-.PHONY : test_reference.cpp.o
+test_void.cpp.o:
+	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/test_void.cpp.o
+.PHONY : test_void.cpp.o
 
-test_reference.i: test_reference.cpp.i
+test_void.i: test_void.cpp.i
 
-.PHONY : test_reference.i
+.PHONY : test_void.i
 
 # target to preprocess a source file
-test_reference.cpp.i:
-	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/test_reference.cpp.i
-.PHONY : test_reference.cpp.i
+test_void.cpp.i:
+	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/test_void.cpp.i
+.PHONY : test_void.cpp.i
 
-test_reference.s: test_reference.cpp.s
+test_void.s: test_void.cpp.s
 
-.PHONY : test_reference.s
+.PHONY : test_void.s
 
 # target to generate assembly for a file
-test_reference.cpp.s:
-	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/test_reference.cpp.s
-.PHONY : test_reference.cpp.s
+test_void.cpp.s:
+	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/test_void.cpp.s
+.PHONY : test_void.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... AlgorithmDesign"
-	@echo "... test_reference.o"
-	@echo "... test_reference.i"
-	@echo "... test_reference.s"
+	@echo "... test_void.o"
+	@echo "... test_void.i"
+	@echo "... test_void.s"
 .PHONY : help
 
 
