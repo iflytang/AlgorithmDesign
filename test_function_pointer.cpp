@@ -31,6 +31,7 @@ int call_back(Calculate calculate, int x, int y) {   // call back function
 }
 
 int main() {
+    long start = clock();
     cout << "please input two nums:";
     int x, y;
     cin >> x >> y;
@@ -39,6 +40,10 @@ int main() {
     call_back(minus_, x, y);
     call_back(time_, x, y);
     call_back(divide_, x, y);
+
+    long end = clock();
+
+    cout << "the program runs " << end - start << " ms" << endl;
 
     return 0;
 }
