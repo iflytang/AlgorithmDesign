@@ -14,11 +14,15 @@ class Rectangle {
 private:
     int width;
     int height;
+    static int totalNum;   // total num of objects
 
 public:
     int init(int w, int h);
     int area();
     int perimeter();
+    static void printTotalNum();
+    Rectangle();      // constructor function
+    ~Rectangle();     // destructor function
 
 };
 

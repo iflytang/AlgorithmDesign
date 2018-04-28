@@ -18,3 +18,15 @@ int Rectangle::area() {
 int Rectangle::perimeter() {
     return 2 * (this->width + this->height);
 }
+
+void Rectangle::printTotalNum() {
+    cout << "total object num: " << totalNum << endl;
+}
+
+Rectangle::Rectangle() {
+    totalNum++;
+}
+
+Rectangle::~Rectangle() {
+    totalNum--;
+}
