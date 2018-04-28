@@ -88,7 +88,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/tsf/CLionProjects/AlgorithmDesign/3-2-edit_distance.cpp">
+		<Unit filename="/home/tsf/CLionProjects/AlgorithmDesign/Rectangle.cpp">
+			<Option target="AlgorithmDesign"/>
+		</Unit>
+		<Unit filename="/home/tsf/CLionProjects/AlgorithmDesign/Rectangle.h">
+			<Option target="AlgorithmDesign"/>
+		</Unit>
+		<Unit filename="/home/tsf/CLionProjects/AlgorithmDesign/test_module_code.cpp">
 			<Option target="AlgorithmDesign"/>
 		</Unit>
 		<Unit filename="/home/tsf/CLionProjects/AlgorithmDesign/CMakeLists.txt">

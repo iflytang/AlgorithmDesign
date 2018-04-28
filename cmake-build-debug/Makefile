@@ -123,32 +123,59 @@ AlgorithmDesign/fast:
 	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/build
 .PHONY : AlgorithmDesign/fast
 
-3-2-edit_distance.o: 3-2-edit_distance.cpp.o
+Rectangle.o: Rectangle.cpp.o
 
-.PHONY : 3-2-edit_distance.o
+.PHONY : Rectangle.o
 
 # target to build an object file
-3-2-edit_distance.cpp.o:
-	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/3-2-edit_distance.cpp.o
-.PHONY : 3-2-edit_distance.cpp.o
+Rectangle.cpp.o:
+	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/Rectangle.cpp.o
+.PHONY : Rectangle.cpp.o
 
-3-2-edit_distance.i: 3-2-edit_distance.cpp.i
+Rectangle.i: Rectangle.cpp.i
 
-.PHONY : 3-2-edit_distance.i
+.PHONY : Rectangle.i
 
 # target to preprocess a source file
-3-2-edit_distance.cpp.i:
-	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/3-2-edit_distance.cpp.i
-.PHONY : 3-2-edit_distance.cpp.i
+Rectangle.cpp.i:
+	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/Rectangle.cpp.i
+.PHONY : Rectangle.cpp.i
 
-3-2-edit_distance.s: 3-2-edit_distance.cpp.s
+Rectangle.s: Rectangle.cpp.s
 
-.PHONY : 3-2-edit_distance.s
+.PHONY : Rectangle.s
 
 # target to generate assembly for a file
-3-2-edit_distance.cpp.s:
-	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/3-2-edit_distance.cpp.s
-.PHONY : 3-2-edit_distance.cpp.s
+Rectangle.cpp.s:
+	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/Rectangle.cpp.s
+.PHONY : Rectangle.cpp.s
+
+test_module_code.o: test_module_code.cpp.o
+
+.PHONY : test_module_code.o
+
+# target to build an object file
+test_module_code.cpp.o:
+	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/test_module_code.cpp.o
+.PHONY : test_module_code.cpp.o
+
+test_module_code.i: test_module_code.cpp.i
+
+.PHONY : test_module_code.i
+
+# target to preprocess a source file
+test_module_code.cpp.i:
+	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/test_module_code.cpp.i
+.PHONY : test_module_code.cpp.i
+
+test_module_code.s: test_module_code.cpp.s
+
+.PHONY : test_module_code.s
+
+# target to generate assembly for a file
+test_module_code.cpp.s:
+	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/test_module_code.cpp.s
+.PHONY : test_module_code.cpp.s
 
 # Help Target
 help:
@@ -159,9 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... AlgorithmDesign"
-	@echo "... 3-2-edit_distance.o"
-	@echo "... 3-2-edit_distance.i"
-	@echo "... 3-2-edit_distance.s"
+	@echo "... Rectangle.o"
+	@echo "... Rectangle.i"
+	@echo "... Rectangle.s"
+	@echo "... test_module_code.o"
+	@echo "... test_module_code.i"
+	@echo "... test_module_code.s"
 .PHONY : help
 
 

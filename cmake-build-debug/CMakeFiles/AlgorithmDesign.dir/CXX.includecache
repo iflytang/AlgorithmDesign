@@ -6,11 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/tsf/CLionProjects/AlgorithmDesign/3-2-edit_distance.cpp
+/home/tsf/CLionProjects/AlgorithmDesign/Rectangle.cpp
+Rectangle.h
+/home/tsf/CLionProjects/AlgorithmDesign/Rectangle.h
+
+/home/tsf/CLionProjects/AlgorithmDesign/Rectangle.h
 iostream
 -
-fstream
+
+/home/tsf/CLionProjects/AlgorithmDesign/test_module_code.cpp
+iostream
 -
-cstring
--
+Rectangle.h
+/home/tsf/CLionProjects/AlgorithmDesign/Rectangle.h
 
