@@ -3,5 +3,5 @@ project(AlgorithmDesign)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES test_const_object.cpp)
+set(SOURCE_FILES test_friend_function.cpp)
 add_executable(AlgorithmDesign ${SOURCE_FILES})
