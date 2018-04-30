@@ -3,5 +3,5 @@ project(AlgorithmDesign)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES test_friend_class.cpp)
+set(SOURCE_FILES test_inherit_class.cpp)
 add_executable(AlgorithmDesign ${SOURCE_FILES})
