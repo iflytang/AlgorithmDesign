@@ -3,5 +3,5 @@ project(AlgorithmDesign)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES test_pure_virtual_function.cpp)
+set(SOURCE_FILES test_file_stream.cpp)
 add_executable(AlgorithmDesign ${SOURCE_FILES})
