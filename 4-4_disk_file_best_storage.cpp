@@ -14,8 +14,12 @@
 
 using namespace std;
 
-bool compare(int a, int b) {
+bool compare(int a, int b) {   // sort
     return a < b;
+}
+
+int cmp(const void *a, const void *b) {  // qsort
+    return *(int *)a > *(int *) b;
 }
 
 int main() {
@@ -55,7 +59,10 @@ int main() {
 
     cout << "======== output.txt =========" << endl;
     /* sort the file in ascending order */
-    sort(p.begin(), p.end(), compare);
+//    sort(p.begin(), p.end(), compare);
+    qsort(p.data(), p.size(), sizeof(int), cmp);
+    for (int i=0; i < p.size(); i++)
+        cout << p[i] << "\t";
 
     /* store the file in greedy */
     int k = (num - 1) / 2;       // center location
