@@ -1,3 +1,6 @@
+# compiled object files
 *.o
 *.lo
+
+# executable files
 *.out
