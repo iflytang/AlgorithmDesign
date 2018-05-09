@@ -6,11 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/tsf/CLionProjects/AlgorithmDesign/test_template.cpp
+/home/tsf/CLionProjects/AlgorithmDesign/test_operator_override.cpp
 iostream
--
-map
--
-vector
 -
 

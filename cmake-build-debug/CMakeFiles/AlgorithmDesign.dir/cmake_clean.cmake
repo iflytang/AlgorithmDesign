@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/AlgorithmDesign.dir/test_template.cpp.o"
+  "CMakeFiles/AlgorithmDesign.dir/test_operator_override.cpp.o"
   "AlgorithmDesign.pdb"
   "AlgorithmDesign"
 )

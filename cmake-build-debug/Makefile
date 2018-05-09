@@ -123,32 +123,32 @@ AlgorithmDesign/fast:
 	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/build
 .PHONY : AlgorithmDesign/fast
 
-test_template.o: test_template.cpp.o
+test_operator_override.o: test_operator_override.cpp.o
 
-.PHONY : test_template.o
+.PHONY : test_operator_override.o
 
 # target to build an object file
-test_template.cpp.o:
-	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/test_template.cpp.o
-.PHONY : test_template.cpp.o
+test_operator_override.cpp.o:
+	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/test_operator_override.cpp.o
+.PHONY : test_operator_override.cpp.o
 
-test_template.i: test_template.cpp.i
+test_operator_override.i: test_operator_override.cpp.i
 
-.PHONY : test_template.i
+.PHONY : test_operator_override.i
 
 # target to preprocess a source file
-test_template.cpp.i:
-	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/test_template.cpp.i
-.PHONY : test_template.cpp.i
+test_operator_override.cpp.i:
+	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/test_operator_override.cpp.i
+.PHONY : test_operator_override.cpp.i
 
-test_template.s: test_template.cpp.s
+test_operator_override.s: test_operator_override.cpp.s
 
-.PHONY : test_template.s
+.PHONY : test_operator_override.s
 
 # target to generate assembly for a file
-test_template.cpp.s:
-	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/test_template.cpp.s
-.PHONY : test_template.cpp.s
+test_operator_override.cpp.s:
+	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/test_operator_override.cpp.s
+.PHONY : test_operator_override.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... AlgorithmDesign"
-	@echo "... test_template.o"
-	@echo "... test_template.i"
-	@echo "... test_template.s"
+	@echo "... test_operator_override.o"
+	@echo "... test_operator_override.i"
+	@echo "... test_operator_override.s"
 .PHONY : help
 
 

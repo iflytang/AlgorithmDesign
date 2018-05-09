@@ -88,7 +88,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/tsf/CLionProjects/AlgorithmDesign/test_template.cpp">
+		<Unit filename="/home/tsf/CLionProjects/AlgorithmDesign/test_operator_override.cpp">
 			<Option target="AlgorithmDesign"/>
 		</Unit>
 		<Unit filename="/home/tsf/CLionProjects/AlgorithmDesign/CMakeLists.txt">
