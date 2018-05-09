@@ -123,59 +123,32 @@ AlgorithmDesign/fast:
 	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/build
 .PHONY : AlgorithmDesign/fast
 
-Rectangle.o: Rectangle.cpp.o
+test_template.o: test_template.cpp.o
 
-.PHONY : Rectangle.o
-
-# target to build an object file
-Rectangle.cpp.o:
-	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/Rectangle.cpp.o
-.PHONY : Rectangle.cpp.o
-
-Rectangle.i: Rectangle.cpp.i
-
-.PHONY : Rectangle.i
-
-# target to preprocess a source file
-Rectangle.cpp.i:
-	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/Rectangle.cpp.i
-.PHONY : Rectangle.cpp.i
-
-Rectangle.s: Rectangle.cpp.s
-
-.PHONY : Rectangle.s
-
-# target to generate assembly for a file
-Rectangle.cpp.s:
-	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/Rectangle.cpp.s
-.PHONY : Rectangle.cpp.s
-
-test_module_code.o: test_module_code.cpp.o
-
-.PHONY : test_module_code.o
+.PHONY : test_template.o
 
 # target to build an object file
-test_module_code.cpp.o:
-	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/test_module_code.cpp.o
-.PHONY : test_module_code.cpp.o
+test_template.cpp.o:
+	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/test_template.cpp.o
+.PHONY : test_template.cpp.o
 
-test_module_code.i: test_module_code.cpp.i
+test_template.i: test_template.cpp.i
 
-.PHONY : test_module_code.i
+.PHONY : test_template.i
 
 # target to preprocess a source file
-test_module_code.cpp.i:
-	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/test_module_code.cpp.i
-.PHONY : test_module_code.cpp.i
+test_template.cpp.i:
+	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/test_template.cpp.i
+.PHONY : test_template.cpp.i
 
-test_module_code.s: test_module_code.cpp.s
+test_template.s: test_template.cpp.s
 
-.PHONY : test_module_code.s
+.PHONY : test_template.s
 
 # target to generate assembly for a file
-test_module_code.cpp.s:
-	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/test_module_code.cpp.s
-.PHONY : test_module_code.cpp.s
+test_template.cpp.s:
+	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/test_template.cpp.s
+.PHONY : test_template.cpp.s
 
 # Help Target
 help:
@@ -186,12 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... AlgorithmDesign"
-	@echo "... Rectangle.o"
-	@echo "... Rectangle.i"
-	@echo "... Rectangle.s"
-	@echo "... test_module_code.o"
-	@echo "... test_module_code.i"
-	@echo "... test_module_code.s"
+	@echo "... test_template.o"
+	@echo "... test_template.i"
+	@echo "... test_template.s"
 .PHONY : help
 
 

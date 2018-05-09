@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/AlgorithmDesign.dir/test_module_code.cpp.o"
-  "CMakeFiles/AlgorithmDesign.dir/Rectangle.cpp.o"
+  "CMakeFiles/AlgorithmDesign.dir/test_template.cpp.o"
   "AlgorithmDesign.pdb"
   "AlgorithmDesign"
 )

@@ -6,17 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/tsf/CLionProjects/AlgorithmDesign/Rectangle.cpp
-Rectangle.h
-/home/tsf/CLionProjects/AlgorithmDesign/Rectangle.h
-
-/home/tsf/CLionProjects/AlgorithmDesign/Rectangle.h
+/home/tsf/CLionProjects/AlgorithmDesign/test_template.cpp
 iostream
 -
-
-/home/tsf/CLionProjects/AlgorithmDesign/test_module_code.cpp
-iostream
+map
 -
-Rectangle.h
-/home/tsf/CLionProjects/AlgorithmDesign/Rectangle.h
+vector
+-
 

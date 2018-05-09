@@ -3,5 +3,5 @@ project(AlgorithmDesign)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES 4-4_disk_file_best_storage.cpp)
+set(SOURCE_FILES test_template.cpp)
 add_executable(AlgorithmDesign ${SOURCE_FILES})
