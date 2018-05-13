@@ -6,7 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/tsf/CLionProjects/AlgorithmDesign/test_operator_override.cpp
+/home/tsf/CLionProjects/AlgorithmDesign/5-6_no_sum_set_problem.cpp
 iostream
 -
+fstream
+-
+algorithm
+-
+cstring
+-
+ctime
+/home/tsf/CLionProjects/AlgorithmDesign/ctime
 

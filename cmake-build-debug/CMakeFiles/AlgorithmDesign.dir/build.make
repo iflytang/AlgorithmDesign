@@ -57,38 +57,38 @@ include CMakeFiles/AlgorithmDesign.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/AlgorithmDesign.dir/flags.make
 
-CMakeFiles/AlgorithmDesign.dir/test_operator_override.cpp.o: CMakeFiles/AlgorithmDesign.dir/flags.make
-CMakeFiles/AlgorithmDesign.dir/test_operator_override.cpp.o: ../test_operator_override.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tsf/CLionProjects/AlgorithmDesign/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/AlgorithmDesign.dir/test_operator_override.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AlgorithmDesign.dir/test_operator_override.cpp.o -c /home/tsf/CLionProjects/AlgorithmDesign/test_operator_override.cpp
+CMakeFiles/AlgorithmDesign.dir/5-6_no_sum_set_problem.cpp.o: CMakeFiles/AlgorithmDesign.dir/flags.make
+CMakeFiles/AlgorithmDesign.dir/5-6_no_sum_set_problem.cpp.o: ../5-6_no_sum_set_problem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tsf/CLionProjects/AlgorithmDesign/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/AlgorithmDesign.dir/5-6_no_sum_set_problem.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AlgorithmDesign.dir/5-6_no_sum_set_problem.cpp.o -c /home/tsf/CLionProjects/AlgorithmDesign/5-6_no_sum_set_problem.cpp
 
-CMakeFiles/AlgorithmDesign.dir/test_operator_override.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AlgorithmDesign.dir/test_operator_override.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tsf/CLionProjects/AlgorithmDesign/test_operator_override.cpp > CMakeFiles/AlgorithmDesign.dir/test_operator_override.cpp.i
+CMakeFiles/AlgorithmDesign.dir/5-6_no_sum_set_problem.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AlgorithmDesign.dir/5-6_no_sum_set_problem.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tsf/CLionProjects/AlgorithmDesign/5-6_no_sum_set_problem.cpp > CMakeFiles/AlgorithmDesign.dir/5-6_no_sum_set_problem.cpp.i
 
-CMakeFiles/AlgorithmDesign.dir/test_operator_override.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AlgorithmDesign.dir/test_operator_override.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tsf/CLionProjects/AlgorithmDesign/test_operator_override.cpp -o CMakeFiles/AlgorithmDesign.dir/test_operator_override.cpp.s
+CMakeFiles/AlgorithmDesign.dir/5-6_no_sum_set_problem.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AlgorithmDesign.dir/5-6_no_sum_set_problem.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tsf/CLionProjects/AlgorithmDesign/5-6_no_sum_set_problem.cpp -o CMakeFiles/AlgorithmDesign.dir/5-6_no_sum_set_problem.cpp.s
 
-CMakeFiles/AlgorithmDesign.dir/test_operator_override.cpp.o.requires:
+CMakeFiles/AlgorithmDesign.dir/5-6_no_sum_set_problem.cpp.o.requires:
 
-.PHONY : CMakeFiles/AlgorithmDesign.dir/test_operator_override.cpp.o.requires
+.PHONY : CMakeFiles/AlgorithmDesign.dir/5-6_no_sum_set_problem.cpp.o.requires
 
-CMakeFiles/AlgorithmDesign.dir/test_operator_override.cpp.o.provides: CMakeFiles/AlgorithmDesign.dir/test_operator_override.cpp.o.requires
-	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/test_operator_override.cpp.o.provides.build
-.PHONY : CMakeFiles/AlgorithmDesign.dir/test_operator_override.cpp.o.provides
+CMakeFiles/AlgorithmDesign.dir/5-6_no_sum_set_problem.cpp.o.provides: CMakeFiles/AlgorithmDesign.dir/5-6_no_sum_set_problem.cpp.o.requires
+	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/5-6_no_sum_set_problem.cpp.o.provides.build
+.PHONY : CMakeFiles/AlgorithmDesign.dir/5-6_no_sum_set_problem.cpp.o.provides
 
-CMakeFiles/AlgorithmDesign.dir/test_operator_override.cpp.o.provides.build: CMakeFiles/AlgorithmDesign.dir/test_operator_override.cpp.o
+CMakeFiles/AlgorithmDesign.dir/5-6_no_sum_set_problem.cpp.o.provides.build: CMakeFiles/AlgorithmDesign.dir/5-6_no_sum_set_problem.cpp.o
 
 
 # Object files for target AlgorithmDesign
 AlgorithmDesign_OBJECTS = \
-"CMakeFiles/AlgorithmDesign.dir/test_operator_override.cpp.o"
+"CMakeFiles/AlgorithmDesign.dir/5-6_no_sum_set_problem.cpp.o"
 
 # External object files for target AlgorithmDesign
 AlgorithmDesign_EXTERNAL_OBJECTS =
 
-AlgorithmDesign: CMakeFiles/AlgorithmDesign.dir/test_operator_override.cpp.o
+AlgorithmDesign: CMakeFiles/AlgorithmDesign.dir/5-6_no_sum_set_problem.cpp.o
 AlgorithmDesign: CMakeFiles/AlgorithmDesign.dir/build.make
 AlgorithmDesign: CMakeFiles/AlgorithmDesign.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tsf/CLionProjects/AlgorithmDesign/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable AlgorithmDesign"
@@ -99,7 +99,7 @@ CMakeFiles/AlgorithmDesign.dir/build: AlgorithmDesign
 
 .PHONY : CMakeFiles/AlgorithmDesign.dir/build
 
-CMakeFiles/AlgorithmDesign.dir/requires: CMakeFiles/AlgorithmDesign.dir/test_operator_override.cpp.o.requires
+CMakeFiles/AlgorithmDesign.dir/requires: CMakeFiles/AlgorithmDesign.dir/5-6_no_sum_set_problem.cpp.o.requires
 
 .PHONY : CMakeFiles/AlgorithmDesign.dir/requires
 

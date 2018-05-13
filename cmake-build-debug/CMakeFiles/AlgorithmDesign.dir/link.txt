@@ -1,1 +1,1 @@
-/usr/bin/c++   -g   CMakeFiles/AlgorithmDesign.dir/test_operator_override.cpp.o  -o AlgorithmDesign 
+/usr/bin/c++   -g   CMakeFiles/AlgorithmDesign.dir/5-6_no_sum_set_problem.cpp.o  -o AlgorithmDesign 

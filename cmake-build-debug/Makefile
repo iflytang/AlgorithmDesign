@@ -123,32 +123,32 @@ AlgorithmDesign/fast:
 	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/build
 .PHONY : AlgorithmDesign/fast
 
-test_operator_override.o: test_operator_override.cpp.o
+5-6_no_sum_set_problem.o: 5-6_no_sum_set_problem.cpp.o
 
-.PHONY : test_operator_override.o
+.PHONY : 5-6_no_sum_set_problem.o
 
 # target to build an object file
-test_operator_override.cpp.o:
-	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/test_operator_override.cpp.o
-.PHONY : test_operator_override.cpp.o
+5-6_no_sum_set_problem.cpp.o:
+	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/5-6_no_sum_set_problem.cpp.o
+.PHONY : 5-6_no_sum_set_problem.cpp.o
 
-test_operator_override.i: test_operator_override.cpp.i
+5-6_no_sum_set_problem.i: 5-6_no_sum_set_problem.cpp.i
 
-.PHONY : test_operator_override.i
+.PHONY : 5-6_no_sum_set_problem.i
 
 # target to preprocess a source file
-test_operator_override.cpp.i:
-	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/test_operator_override.cpp.i
-.PHONY : test_operator_override.cpp.i
+5-6_no_sum_set_problem.cpp.i:
+	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/5-6_no_sum_set_problem.cpp.i
+.PHONY : 5-6_no_sum_set_problem.cpp.i
 
-test_operator_override.s: test_operator_override.cpp.s
+5-6_no_sum_set_problem.s: 5-6_no_sum_set_problem.cpp.s
 
-.PHONY : test_operator_override.s
+.PHONY : 5-6_no_sum_set_problem.s
 
 # target to generate assembly for a file
-test_operator_override.cpp.s:
-	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/test_operator_override.cpp.s
-.PHONY : test_operator_override.cpp.s
+5-6_no_sum_set_problem.cpp.s:
+	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/5-6_no_sum_set_problem.cpp.s
+.PHONY : 5-6_no_sum_set_problem.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... AlgorithmDesign"
-	@echo "... test_operator_override.o"
-	@echo "... test_operator_override.i"
-	@echo "... test_operator_override.s"
+	@echo "... 5-6_no_sum_set_problem.o"
+	@echo "... 5-6_no_sum_set_problem.i"
+	@echo "... 5-6_no_sum_set_problem.s"
 .PHONY : help
 
 
