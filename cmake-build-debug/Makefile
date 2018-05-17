@@ -123,32 +123,32 @@ AlgorithmDesign/fast:
 	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/build
 .PHONY : AlgorithmDesign/fast
 
-5-6_no_sum_set_problem.o: 5-6_no_sum_set_problem.cpp.o
+5-9_latin_matrix.o: 5-9_latin_matrix.cpp.o
 
-.PHONY : 5-6_no_sum_set_problem.o
+.PHONY : 5-9_latin_matrix.o
 
 # target to build an object file
-5-6_no_sum_set_problem.cpp.o:
-	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/5-6_no_sum_set_problem.cpp.o
-.PHONY : 5-6_no_sum_set_problem.cpp.o
+5-9_latin_matrix.cpp.o:
+	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/5-9_latin_matrix.cpp.o
+.PHONY : 5-9_latin_matrix.cpp.o
 
-5-6_no_sum_set_problem.i: 5-6_no_sum_set_problem.cpp.i
+5-9_latin_matrix.i: 5-9_latin_matrix.cpp.i
 
-.PHONY : 5-6_no_sum_set_problem.i
+.PHONY : 5-9_latin_matrix.i
 
 # target to preprocess a source file
-5-6_no_sum_set_problem.cpp.i:
-	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/5-6_no_sum_set_problem.cpp.i
-.PHONY : 5-6_no_sum_set_problem.cpp.i
+5-9_latin_matrix.cpp.i:
+	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/5-9_latin_matrix.cpp.i
+.PHONY : 5-9_latin_matrix.cpp.i
 
-5-6_no_sum_set_problem.s: 5-6_no_sum_set_problem.cpp.s
+5-9_latin_matrix.s: 5-9_latin_matrix.cpp.s
 
-.PHONY : 5-6_no_sum_set_problem.s
+.PHONY : 5-9_latin_matrix.s
 
 # target to generate assembly for a file
-5-6_no_sum_set_problem.cpp.s:
-	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/5-6_no_sum_set_problem.cpp.s
-.PHONY : 5-6_no_sum_set_problem.cpp.s
+5-9_latin_matrix.cpp.s:
+	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/5-9_latin_matrix.cpp.s
+.PHONY : 5-9_latin_matrix.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... AlgorithmDesign"
-	@echo "... 5-6_no_sum_set_problem.o"
-	@echo "... 5-6_no_sum_set_problem.i"
-	@echo "... 5-6_no_sum_set_problem.s"
+	@echo "... 5-9_latin_matrix.o"
+	@echo "... 5-9_latin_matrix.i"
+	@echo "... 5-9_latin_matrix.s"
 .PHONY : help
 
 

@@ -6,15 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/tsf/CLionProjects/AlgorithmDesign/5-6_no_sum_set_problem.cpp
+/home/tsf/CLionProjects/AlgorithmDesign/5-9_latin_matrix.cpp
 iostream
 -
 fstream
 -
-algorithm
+vector
 -
-cstring
--
-ctime
-/home/tsf/CLionProjects/AlgorithmDesign/ctime
 
