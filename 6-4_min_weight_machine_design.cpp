@@ -126,8 +126,8 @@ bool writeFile(const int &d, const vector<int> result) {
 
 bool operator < (Node a, Node b) {
     if (a.weight == b.weight)
-        return a.level > b.level;   // ascending level
-    return a.weight > b.level;
+        return a.level > b.level;   // descending level
+    return a.weight < b.weight;
 }
 
 void minWeightMachine() {
