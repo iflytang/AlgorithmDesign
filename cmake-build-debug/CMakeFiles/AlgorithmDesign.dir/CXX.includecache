@@ -6,11 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/tsf/CLionProjects/AlgorithmDesign/5-9_latin_matrix.cpp
+/home/tsf/CLionProjects/AlgorithmDesign/6-4_min_weight_machine_design.cpp
 iostream
+-
+vector
 -
 fstream
 -
-vector
+climits
+-
+queue
+-
+algorithm
 -
 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/tsf/CLionProjects/AlgorithmDesign/5-9_latin_matrix.cpp" "/home/tsf/CLionProjects/AlgorithmDesign/cmake-build-debug/CMakeFiles/AlgorithmDesign.dir/5-9_latin_matrix.cpp.o"
+  "/home/tsf/CLionProjects/AlgorithmDesign/6-4_min_weight_machine_design.cpp" "/home/tsf/CLionProjects/AlgorithmDesign/cmake-build-debug/CMakeFiles/AlgorithmDesign.dir/6-4_min_weight_machine_design.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

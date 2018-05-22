@@ -88,7 +88,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/tsf/CLionProjects/AlgorithmDesign/5-9_latin_matrix.cpp">
+		<Unit filename="/home/tsf/CLionProjects/AlgorithmDesign/6-4_min_weight_machine_design.cpp">
 			<Option target="AlgorithmDesign"/>
 		</Unit>
 		<Unit filename="/home/tsf/CLionProjects/AlgorithmDesign/CMakeLists.txt">

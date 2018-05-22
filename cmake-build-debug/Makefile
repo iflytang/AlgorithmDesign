@@ -123,32 +123,32 @@ AlgorithmDesign/fast:
 	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/build
 .PHONY : AlgorithmDesign/fast
 
-5-9_latin_matrix.o: 5-9_latin_matrix.cpp.o
+6-4_min_weight_machine_design.o: 6-4_min_weight_machine_design.cpp.o
 
-.PHONY : 5-9_latin_matrix.o
+.PHONY : 6-4_min_weight_machine_design.o
 
 # target to build an object file
-5-9_latin_matrix.cpp.o:
-	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/5-9_latin_matrix.cpp.o
-.PHONY : 5-9_latin_matrix.cpp.o
+6-4_min_weight_machine_design.cpp.o:
+	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/6-4_min_weight_machine_design.cpp.o
+.PHONY : 6-4_min_weight_machine_design.cpp.o
 
-5-9_latin_matrix.i: 5-9_latin_matrix.cpp.i
+6-4_min_weight_machine_design.i: 6-4_min_weight_machine_design.cpp.i
 
-.PHONY : 5-9_latin_matrix.i
+.PHONY : 6-4_min_weight_machine_design.i
 
 # target to preprocess a source file
-5-9_latin_matrix.cpp.i:
-	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/5-9_latin_matrix.cpp.i
-.PHONY : 5-9_latin_matrix.cpp.i
+6-4_min_weight_machine_design.cpp.i:
+	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/6-4_min_weight_machine_design.cpp.i
+.PHONY : 6-4_min_weight_machine_design.cpp.i
 
-5-9_latin_matrix.s: 5-9_latin_matrix.cpp.s
+6-4_min_weight_machine_design.s: 6-4_min_weight_machine_design.cpp.s
 
-.PHONY : 5-9_latin_matrix.s
+.PHONY : 6-4_min_weight_machine_design.s
 
 # target to generate assembly for a file
-5-9_latin_matrix.cpp.s:
-	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/5-9_latin_matrix.cpp.s
-.PHONY : 5-9_latin_matrix.cpp.s
+6-4_min_weight_machine_design.cpp.s:
+	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/6-4_min_weight_machine_design.cpp.s
+.PHONY : 6-4_min_weight_machine_design.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... AlgorithmDesign"
-	@echo "... 5-9_latin_matrix.o"
-	@echo "... 5-9_latin_matrix.i"
-	@echo "... 5-9_latin_matrix.s"
+	@echo "... 6-4_min_weight_machine_design.o"
+	@echo "... 6-4_min_weight_machine_design.i"
+	@echo "... 6-4_min_weight_machine_design.s"
 .PHONY : help
 
 

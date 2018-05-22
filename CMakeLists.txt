@@ -3,5 +3,5 @@ project(AlgorithmDesign)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES 5-9_latin_matrix.cpp)
+set(SOURCE_FILES 6-4_min_weight_machine_design.cpp)
 add_executable(AlgorithmDesign ${SOURCE_FILES})

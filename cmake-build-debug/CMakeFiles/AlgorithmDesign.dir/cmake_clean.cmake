@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/AlgorithmDesign.dir/5-9_latin_matrix.cpp.o"
+  "CMakeFiles/AlgorithmDesign.dir/6-4_min_weight_machine_design.cpp.o"
   "AlgorithmDesign.pdb"
   "AlgorithmDesign"
 )
