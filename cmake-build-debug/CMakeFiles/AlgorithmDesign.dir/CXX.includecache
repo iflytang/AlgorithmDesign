@@ -6,17 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/tsf/CLionProjects/AlgorithmDesign/6-4_min_weight_machine_design.cpp
+/home/tsf/CLionProjects/AlgorithmDesign/test_strlen_sizeof.cpp
 iostream
 -
-vector
+cstring
 -
-fstream
--
-climits
--
-queue
--
-algorithm
+cstddef
 -
 

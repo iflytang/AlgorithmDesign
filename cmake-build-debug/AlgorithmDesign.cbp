@@ -88,7 +88,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/tsf/CLionProjects/AlgorithmDesign/6-4_min_weight_machine_design.cpp">
+		<Unit filename="/home/tsf/CLionProjects/AlgorithmDesign/test_strlen_sizeof.cpp">
 			<Option target="AlgorithmDesign"/>
 		</Unit>
 		<Unit filename="/home/tsf/CLionProjects/AlgorithmDesign/CMakeLists.txt">

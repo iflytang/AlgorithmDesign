@@ -1,1 +1,1 @@
-/usr/bin/c++   -g   CMakeFiles/AlgorithmDesign.dir/6-4_min_weight_machine_design.cpp.o  -o AlgorithmDesign 
+/usr/bin/c++   -g   CMakeFiles/AlgorithmDesign.dir/test_strlen_sizeof.cpp.o  -o AlgorithmDesign 

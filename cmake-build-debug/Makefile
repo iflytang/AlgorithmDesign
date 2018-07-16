@@ -123,32 +123,32 @@ AlgorithmDesign/fast:
 	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/build
 .PHONY : AlgorithmDesign/fast
 
-6-4_min_weight_machine_design.o: 6-4_min_weight_machine_design.cpp.o
+test_strlen_sizeof.o: test_strlen_sizeof.cpp.o
 
-.PHONY : 6-4_min_weight_machine_design.o
+.PHONY : test_strlen_sizeof.o
 
 # target to build an object file
-6-4_min_weight_machine_design.cpp.o:
-	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/6-4_min_weight_machine_design.cpp.o
-.PHONY : 6-4_min_weight_machine_design.cpp.o
+test_strlen_sizeof.cpp.o:
+	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/test_strlen_sizeof.cpp.o
+.PHONY : test_strlen_sizeof.cpp.o
 
-6-4_min_weight_machine_design.i: 6-4_min_weight_machine_design.cpp.i
+test_strlen_sizeof.i: test_strlen_sizeof.cpp.i
 
-.PHONY : 6-4_min_weight_machine_design.i
+.PHONY : test_strlen_sizeof.i
 
 # target to preprocess a source file
-6-4_min_weight_machine_design.cpp.i:
-	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/6-4_min_weight_machine_design.cpp.i
-.PHONY : 6-4_min_weight_machine_design.cpp.i
+test_strlen_sizeof.cpp.i:
+	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/test_strlen_sizeof.cpp.i
+.PHONY : test_strlen_sizeof.cpp.i
 
-6-4_min_weight_machine_design.s: 6-4_min_weight_machine_design.cpp.s
+test_strlen_sizeof.s: test_strlen_sizeof.cpp.s
 
-.PHONY : 6-4_min_weight_machine_design.s
+.PHONY : test_strlen_sizeof.s
 
 # target to generate assembly for a file
-6-4_min_weight_machine_design.cpp.s:
-	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/6-4_min_weight_machine_design.cpp.s
-.PHONY : 6-4_min_weight_machine_design.cpp.s
+test_strlen_sizeof.cpp.s:
+	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/test_strlen_sizeof.cpp.s
+.PHONY : test_strlen_sizeof.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... AlgorithmDesign"
-	@echo "... 6-4_min_weight_machine_design.o"
-	@echo "... 6-4_min_weight_machine_design.i"
-	@echo "... 6-4_min_weight_machine_design.s"
+	@echo "... test_strlen_sizeof.o"
+	@echo "... test_strlen_sizeof.i"
+	@echo "... test_strlen_sizeof.s"
 .PHONY : help
 
 

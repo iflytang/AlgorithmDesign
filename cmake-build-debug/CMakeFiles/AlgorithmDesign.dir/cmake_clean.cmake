@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/AlgorithmDesign.dir/6-4_min_weight_machine_design.cpp.o"
+  "CMakeFiles/AlgorithmDesign.dir/test_strlen_sizeof.cpp.o"
   "AlgorithmDesign.pdb"
   "AlgorithmDesign"
 )
