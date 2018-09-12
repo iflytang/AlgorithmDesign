@@ -27,7 +27,7 @@ char findChar(char * str) {
         }
     }
 
-    if (i == -1) {
+    if (i == 0) {
         cout << "NULL";
         return NULL;
     }

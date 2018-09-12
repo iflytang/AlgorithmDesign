@@ -3,5 +3,5 @@ project(AlgorithmDesign)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES test_interview2.cpp)
+set(SOURCE_FILES test_interview3.cpp)
 add_executable(AlgorithmDesign ${SOURCE_FILES})
