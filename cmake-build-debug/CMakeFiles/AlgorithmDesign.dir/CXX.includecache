@@ -6,11 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/tsf/CLionProjects/AlgorithmDesign/test_strlen_sizeof.cpp
+/home/tsf/CLionProjects/AlgorithmDesign/test_memcpy.cpp
 iostream
 -
 cstring
--
-cstddef
 -
 

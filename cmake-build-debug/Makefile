@@ -123,32 +123,32 @@ AlgorithmDesign/fast:
 	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/build
 .PHONY : AlgorithmDesign/fast
 
-test_strlen_sizeof.o: test_strlen_sizeof.cpp.o
+test_memcpy.o: test_memcpy.cpp.o
 
-.PHONY : test_strlen_sizeof.o
+.PHONY : test_memcpy.o
 
 # target to build an object file
-test_strlen_sizeof.cpp.o:
-	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/test_strlen_sizeof.cpp.o
-.PHONY : test_strlen_sizeof.cpp.o
+test_memcpy.cpp.o:
+	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/test_memcpy.cpp.o
+.PHONY : test_memcpy.cpp.o
 
-test_strlen_sizeof.i: test_strlen_sizeof.cpp.i
+test_memcpy.i: test_memcpy.cpp.i
 
-.PHONY : test_strlen_sizeof.i
+.PHONY : test_memcpy.i
 
 # target to preprocess a source file
-test_strlen_sizeof.cpp.i:
-	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/test_strlen_sizeof.cpp.i
-.PHONY : test_strlen_sizeof.cpp.i
+test_memcpy.cpp.i:
+	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/test_memcpy.cpp.i
+.PHONY : test_memcpy.cpp.i
 
-test_strlen_sizeof.s: test_strlen_sizeof.cpp.s
+test_memcpy.s: test_memcpy.cpp.s
 
-.PHONY : test_strlen_sizeof.s
+.PHONY : test_memcpy.s
 
 # target to generate assembly for a file
-test_strlen_sizeof.cpp.s:
-	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/test_strlen_sizeof.cpp.s
-.PHONY : test_strlen_sizeof.cpp.s
+test_memcpy.cpp.s:
+	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/test_memcpy.cpp.s
+.PHONY : test_memcpy.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... AlgorithmDesign"
-	@echo "... test_strlen_sizeof.o"
-	@echo "... test_strlen_sizeof.i"
-	@echo "... test_strlen_sizeof.s"
+	@echo "... test_memcpy.o"
+	@echo "... test_memcpy.i"
+	@echo "... test_memcpy.s"
 .PHONY : help
 
 
