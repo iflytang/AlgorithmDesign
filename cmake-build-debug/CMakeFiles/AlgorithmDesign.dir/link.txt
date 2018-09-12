@@ -1,1 +1,1 @@
-/usr/bin/c++   -g   CMakeFiles/AlgorithmDesign.dir/test_memcpy.cpp.o  -o AlgorithmDesign 
+/usr/bin/c++   -g   CMakeFiles/AlgorithmDesign.dir/test_interview2.cpp.o  -o AlgorithmDesign 

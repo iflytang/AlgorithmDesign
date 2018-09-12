@@ -123,32 +123,32 @@ AlgorithmDesign/fast:
 	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/build
 .PHONY : AlgorithmDesign/fast
 
-test_memcpy.o: test_memcpy.cpp.o
+test_interview2.o: test_interview2.cpp.o
 
-.PHONY : test_memcpy.o
+.PHONY : test_interview2.o
 
 # target to build an object file
-test_memcpy.cpp.o:
-	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/test_memcpy.cpp.o
-.PHONY : test_memcpy.cpp.o
+test_interview2.cpp.o:
+	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/test_interview2.cpp.o
+.PHONY : test_interview2.cpp.o
 
-test_memcpy.i: test_memcpy.cpp.i
+test_interview2.i: test_interview2.cpp.i
 
-.PHONY : test_memcpy.i
+.PHONY : test_interview2.i
 
 # target to preprocess a source file
-test_memcpy.cpp.i:
-	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/test_memcpy.cpp.i
-.PHONY : test_memcpy.cpp.i
+test_interview2.cpp.i:
+	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/test_interview2.cpp.i
+.PHONY : test_interview2.cpp.i
 
-test_memcpy.s: test_memcpy.cpp.s
+test_interview2.s: test_interview2.cpp.s
 
-.PHONY : test_memcpy.s
+.PHONY : test_interview2.s
 
 # target to generate assembly for a file
-test_memcpy.cpp.s:
-	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/test_memcpy.cpp.s
-.PHONY : test_memcpy.cpp.s
+test_interview2.cpp.s:
+	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/test_interview2.cpp.s
+.PHONY : test_interview2.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... AlgorithmDesign"
-	@echo "... test_memcpy.o"
-	@echo "... test_memcpy.i"
-	@echo "... test_memcpy.s"
+	@echo "... test_interview2.o"
+	@echo "... test_interview2.i"
+	@echo "... test_interview2.s"
 .PHONY : help
 
 
