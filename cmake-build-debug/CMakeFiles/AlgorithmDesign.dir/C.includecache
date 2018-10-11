@@ -6,9 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/tsf/CLionProjects/AlgorithmDesign/test_convert_double_to_arr.cpp
-iostream
+/home/tsf/CLionProjects/AlgorithmDesign/test_convert_double_to_arr.c
+libio.h
 -
-cstring
+stdlib.h
+-
+stdint.h
+-
+string.h
+-
+printf.h
+-
+caca_conio.h
 -
 

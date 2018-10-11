@@ -123,32 +123,32 @@ AlgorithmDesign/fast:
 	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/build
 .PHONY : AlgorithmDesign/fast
 
-test_interview3.o: test_interview3.cpp.o
+test_convert_double_to_arr.o: test_convert_double_to_arr.cpp.o
 
-.PHONY : test_interview3.o
+.PHONY : test_convert_double_to_arr.o
 
 # target to build an object file
-test_interview3.cpp.o:
-	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/test_interview3.cpp.o
-.PHONY : test_interview3.cpp.o
+test_convert_double_to_arr.cpp.o:
+	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/test_convert_double_to_arr.cpp.o
+.PHONY : test_convert_double_to_arr.cpp.o
 
-test_interview3.i: test_interview3.cpp.i
+test_convert_double_to_arr.i: test_convert_double_to_arr.cpp.i
 
-.PHONY : test_interview3.i
+.PHONY : test_convert_double_to_arr.i
 
 # target to preprocess a source file
-test_interview3.cpp.i:
-	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/test_interview3.cpp.i
-.PHONY : test_interview3.cpp.i
+test_convert_double_to_arr.cpp.i:
+	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/test_convert_double_to_arr.cpp.i
+.PHONY : test_convert_double_to_arr.cpp.i
 
-test_interview3.s: test_interview3.cpp.s
+test_convert_double_to_arr.s: test_convert_double_to_arr.cpp.s
 
-.PHONY : test_interview3.s
+.PHONY : test_convert_double_to_arr.s
 
 # target to generate assembly for a file
-test_interview3.cpp.s:
-	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/test_interview3.cpp.s
-.PHONY : test_interview3.cpp.s
+test_convert_double_to_arr.cpp.s:
+	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/test_convert_double_to_arr.cpp.s
+.PHONY : test_convert_double_to_arr.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... AlgorithmDesign"
-	@echo "... test_interview3.o"
-	@echo "... test_interview3.i"
-	@echo "... test_interview3.s"
+	@echo "... test_convert_double_to_arr.o"
+	@echo "... test_convert_double_to_arr.i"
+	@echo "... test_convert_double_to_arr.s"
 .PHONY : help
 
 
