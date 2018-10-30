@@ -88,7 +88,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/tsf/CLionProjects/AlgorithmDesign/test_convert_double_to_arr.cpp">
+		<Unit filename="/home/tsf/CLionProjects/AlgorithmDesign/test_memcpy.cpp">
 			<Option target="AlgorithmDesign"/>
 		</Unit>
 		<Unit filename="/home/tsf/CLionProjects/AlgorithmDesign/CMakeLists.txt">

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/tsf/CLionProjects/AlgorithmDesign/test_convert_double_to_arr.cpp
+/home/tsf/CLionProjects/AlgorithmDesign/test_memcpy.cpp
 iostream
 -
 cstring

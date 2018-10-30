@@ -1,1 +1,1 @@
-/usr/bin/c++   -g   CMakeFiles/AlgorithmDesign.dir/test_convert_double_to_arr.cpp.o  -o AlgorithmDesign 
+/usr/bin/c++   -g   CMakeFiles/AlgorithmDesign.dir/test_memcpy.cpp.o  -o AlgorithmDesign 
