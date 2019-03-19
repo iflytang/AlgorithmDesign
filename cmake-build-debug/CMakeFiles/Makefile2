@@ -60,39 +60,39 @@ CMAKE_SOURCE_DIR = /home/tsf/CLionProject
 CMAKE_BINARY_DIR = /home/tsf/CLionProject/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/AlgorithmDesign.dir
+# Target rules for target CMakeFiles/CLionProject.dir
 
 # All Build rule for target.
-CMakeFiles/AlgorithmDesign.dir/all:
-	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/depend
-	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tsf/CLionProject/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target AlgorithmDesign"
-.PHONY : CMakeFiles/AlgorithmDesign.dir/all
+CMakeFiles/CLionProject.dir/all:
+	$(MAKE) -f CMakeFiles/CLionProject.dir/build.make CMakeFiles/CLionProject.dir/depend
+	$(MAKE) -f CMakeFiles/CLionProject.dir/build.make CMakeFiles/CLionProject.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tsf/CLionProject/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target CLionProject"
+.PHONY : CMakeFiles/CLionProject.dir/all
 
 # Include target in all.
-all: CMakeFiles/AlgorithmDesign.dir/all
+all: CMakeFiles/CLionProject.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/AlgorithmDesign.dir/rule: cmake_check_build_system
+CMakeFiles/CLionProject.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/tsf/CLionProject/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/AlgorithmDesign.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/CLionProject.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/tsf/CLionProject/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/AlgorithmDesign.dir/rule
+.PHONY : CMakeFiles/CLionProject.dir/rule
 
 # Convenience name for target.
-AlgorithmDesign: CMakeFiles/AlgorithmDesign.dir/rule
+CLionProject: CMakeFiles/CLionProject.dir/rule
 
-.PHONY : AlgorithmDesign
-
-# clean rule for target.
-CMakeFiles/AlgorithmDesign.dir/clean:
-	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/clean
-.PHONY : CMakeFiles/AlgorithmDesign.dir/clean
+.PHONY : CLionProject
 
 # clean rule for target.
-clean: CMakeFiles/AlgorithmDesign.dir/clean
+CMakeFiles/CLionProject.dir/clean:
+	$(MAKE) -f CMakeFiles/CLionProject.dir/build.make CMakeFiles/CLionProject.dir/clean
+.PHONY : CMakeFiles/CLionProject.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/CLionProject.dir/clean
 
 .PHONY : clean
 

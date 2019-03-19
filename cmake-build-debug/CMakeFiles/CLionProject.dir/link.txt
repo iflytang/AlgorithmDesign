@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/CLionProject.dir/c_test/test_interview3.cpp.o  -o CLionProject 

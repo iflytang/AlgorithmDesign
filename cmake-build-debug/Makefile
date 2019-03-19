@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named AlgorithmDesign
+# Target rules for targets named CLionProject
 
 # Build rule for target.
-AlgorithmDesign: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 AlgorithmDesign
-.PHONY : AlgorithmDesign
+CLionProject: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 CLionProject
+.PHONY : CLionProject
 
 # fast build rule for target.
-AlgorithmDesign/fast:
-	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/build
-.PHONY : AlgorithmDesign/fast
+CLionProject/fast:
+	$(MAKE) -f CMakeFiles/CLionProject.dir/build.make CMakeFiles/CLionProject.dir/build
+.PHONY : CLionProject/fast
 
 c_test/test_interview3.o: c_test/test_interview3.cpp.o
 
@@ -129,7 +129,7 @@ c_test/test_interview3.o: c_test/test_interview3.cpp.o
 
 # target to build an object file
 c_test/test_interview3.cpp.o:
-	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/c_test/test_interview3.cpp.o
+	$(MAKE) -f CMakeFiles/CLionProject.dir/build.make CMakeFiles/CLionProject.dir/c_test/test_interview3.cpp.o
 .PHONY : c_test/test_interview3.cpp.o
 
 c_test/test_interview3.i: c_test/test_interview3.cpp.i
@@ -138,7 +138,7 @@ c_test/test_interview3.i: c_test/test_interview3.cpp.i
 
 # target to preprocess a source file
 c_test/test_interview3.cpp.i:
-	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/c_test/test_interview3.cpp.i
+	$(MAKE) -f CMakeFiles/CLionProject.dir/build.make CMakeFiles/CLionProject.dir/c_test/test_interview3.cpp.i
 .PHONY : c_test/test_interview3.cpp.i
 
 c_test/test_interview3.s: c_test/test_interview3.cpp.s
@@ -147,7 +147,7 @@ c_test/test_interview3.s: c_test/test_interview3.cpp.s
 
 # target to generate assembly for a file
 c_test/test_interview3.cpp.s:
-	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/c_test/test_interview3.cpp.s
+	$(MAKE) -f CMakeFiles/CLionProject.dir/build.make CMakeFiles/CLionProject.dir/c_test/test_interview3.cpp.s
 .PHONY : c_test/test_interview3.cpp.s
 
 # Help Target
@@ -158,7 +158,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... AlgorithmDesign"
+	@echo "... CLionProject"
 	@echo "... c_test/test_interview3.o"
 	@echo "... c_test/test_interview3.i"
 	@echo "... c_test/test_interview3.s"

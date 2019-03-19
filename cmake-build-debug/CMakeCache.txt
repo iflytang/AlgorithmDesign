@@ -20,6 +20,12 @@ AlgorithmDesign_BINARY_DIR:STATIC=/home/tsf/CLionProject/cmake-build-debug
 //Value Computed by CMake
 AlgorithmDesign_SOURCE_DIR:STATIC=/home/tsf/CLionProject
 
+//Value Computed by CMake
+CLionProject_BINARY_DIR:STATIC=/home/tsf/CLionProject/cmake-build-debug
+
+//Value Computed by CMake
+CLionProject_SOURCE_DIR:STATIC=/home/tsf/CLionProject
+
 //Path to a program.
 CMAKE_AR:FILEPATH=/usr/bin/ar
 
@@ -127,7 +133,7 @@ CMAKE_OBJCOPY:FILEPATH=/usr/bin/objcopy
 CMAKE_OBJDUMP:FILEPATH=/usr/bin/objdump
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=AlgorithmDesign
+CMAKE_PROJECT_NAME:STATIC=CLionProject
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
