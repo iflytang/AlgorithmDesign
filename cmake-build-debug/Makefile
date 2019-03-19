@@ -48,10 +48,10 @@ RM = /home/tsf/Clion/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tsf/CLionProjects/AlgorithmDesign
+CMAKE_SOURCE_DIR = /home/tsf/CLionProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tsf/CLionProjects/AlgorithmDesign/cmake-build-debug
+CMAKE_BINARY_DIR = /home/tsf/CLionProject/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tsf/CLionProjects/AlgorithmDesign/cmake-build-debug/CMakeFiles /home/tsf/CLionProjects/AlgorithmDesign/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tsf/CLionProject/cmake-build-debug/CMakeFiles /home/tsf/CLionProject/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tsf/CLionProjects/AlgorithmDesign/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tsf/CLionProject/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,32 +123,32 @@ AlgorithmDesign/fast:
 	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/build
 .PHONY : AlgorithmDesign/fast
 
-test_memcpy.o: test_memcpy.cpp.o
+c_test/test_interview3.o: c_test/test_interview3.cpp.o
 
-.PHONY : test_memcpy.o
+.PHONY : c_test/test_interview3.o
 
 # target to build an object file
-test_memcpy.cpp.o:
-	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/test_memcpy.cpp.o
-.PHONY : test_memcpy.cpp.o
+c_test/test_interview3.cpp.o:
+	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/c_test/test_interview3.cpp.o
+.PHONY : c_test/test_interview3.cpp.o
 
-test_memcpy.i: test_memcpy.cpp.i
+c_test/test_interview3.i: c_test/test_interview3.cpp.i
 
-.PHONY : test_memcpy.i
+.PHONY : c_test/test_interview3.i
 
 # target to preprocess a source file
-test_memcpy.cpp.i:
-	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/test_memcpy.cpp.i
-.PHONY : test_memcpy.cpp.i
+c_test/test_interview3.cpp.i:
+	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/c_test/test_interview3.cpp.i
+.PHONY : c_test/test_interview3.cpp.i
 
-test_memcpy.s: test_memcpy.cpp.s
+c_test/test_interview3.s: c_test/test_interview3.cpp.s
 
-.PHONY : test_memcpy.s
+.PHONY : c_test/test_interview3.s
 
 # target to generate assembly for a file
-test_memcpy.cpp.s:
-	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/test_memcpy.cpp.s
-.PHONY : test_memcpy.cpp.s
+c_test/test_interview3.cpp.s:
+	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/c_test/test_interview3.cpp.s
+.PHONY : c_test/test_interview3.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... AlgorithmDesign"
-	@echo "... test_memcpy.o"
-	@echo "... test_memcpy.i"
-	@echo "... test_memcpy.s"
+	@echo "... c_test/test_interview3.o"
+	@echo "... c_test/test_interview3.i"
+	@echo "... c_test/test_interview3.s"
 .PHONY : help
 
 

@@ -43,10 +43,10 @@ RM = /home/tsf/Clion/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tsf/CLionProjects/AlgorithmDesign
+CMAKE_SOURCE_DIR = /home/tsf/CLionProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tsf/CLionProjects/AlgorithmDesign/cmake-build-debug
+CMAKE_BINARY_DIR = /home/tsf/CLionProject/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/AlgorithmDesign.dir/depend.make
@@ -57,41 +57,41 @@ include CMakeFiles/AlgorithmDesign.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/AlgorithmDesign.dir/flags.make
 
-CMakeFiles/AlgorithmDesign.dir/test_memcpy.cpp.o: CMakeFiles/AlgorithmDesign.dir/flags.make
-CMakeFiles/AlgorithmDesign.dir/test_memcpy.cpp.o: ../test_memcpy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tsf/CLionProjects/AlgorithmDesign/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/AlgorithmDesign.dir/test_memcpy.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AlgorithmDesign.dir/test_memcpy.cpp.o -c /home/tsf/CLionProjects/AlgorithmDesign/test_memcpy.cpp
+CMakeFiles/AlgorithmDesign.dir/c_test/test_interview3.cpp.o: CMakeFiles/AlgorithmDesign.dir/flags.make
+CMakeFiles/AlgorithmDesign.dir/c_test/test_interview3.cpp.o: ../c_test/test_interview3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tsf/CLionProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/AlgorithmDesign.dir/c_test/test_interview3.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AlgorithmDesign.dir/c_test/test_interview3.cpp.o -c /home/tsf/CLionProject/c_test/test_interview3.cpp
 
-CMakeFiles/AlgorithmDesign.dir/test_memcpy.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AlgorithmDesign.dir/test_memcpy.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tsf/CLionProjects/AlgorithmDesign/test_memcpy.cpp > CMakeFiles/AlgorithmDesign.dir/test_memcpy.cpp.i
+CMakeFiles/AlgorithmDesign.dir/c_test/test_interview3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AlgorithmDesign.dir/c_test/test_interview3.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tsf/CLionProject/c_test/test_interview3.cpp > CMakeFiles/AlgorithmDesign.dir/c_test/test_interview3.cpp.i
 
-CMakeFiles/AlgorithmDesign.dir/test_memcpy.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AlgorithmDesign.dir/test_memcpy.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tsf/CLionProjects/AlgorithmDesign/test_memcpy.cpp -o CMakeFiles/AlgorithmDesign.dir/test_memcpy.cpp.s
+CMakeFiles/AlgorithmDesign.dir/c_test/test_interview3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AlgorithmDesign.dir/c_test/test_interview3.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tsf/CLionProject/c_test/test_interview3.cpp -o CMakeFiles/AlgorithmDesign.dir/c_test/test_interview3.cpp.s
 
-CMakeFiles/AlgorithmDesign.dir/test_memcpy.cpp.o.requires:
+CMakeFiles/AlgorithmDesign.dir/c_test/test_interview3.cpp.o.requires:
 
-.PHONY : CMakeFiles/AlgorithmDesign.dir/test_memcpy.cpp.o.requires
+.PHONY : CMakeFiles/AlgorithmDesign.dir/c_test/test_interview3.cpp.o.requires
 
-CMakeFiles/AlgorithmDesign.dir/test_memcpy.cpp.o.provides: CMakeFiles/AlgorithmDesign.dir/test_memcpy.cpp.o.requires
-	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/test_memcpy.cpp.o.provides.build
-.PHONY : CMakeFiles/AlgorithmDesign.dir/test_memcpy.cpp.o.provides
+CMakeFiles/AlgorithmDesign.dir/c_test/test_interview3.cpp.o.provides: CMakeFiles/AlgorithmDesign.dir/c_test/test_interview3.cpp.o.requires
+	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/c_test/test_interview3.cpp.o.provides.build
+.PHONY : CMakeFiles/AlgorithmDesign.dir/c_test/test_interview3.cpp.o.provides
 
-CMakeFiles/AlgorithmDesign.dir/test_memcpy.cpp.o.provides.build: CMakeFiles/AlgorithmDesign.dir/test_memcpy.cpp.o
+CMakeFiles/AlgorithmDesign.dir/c_test/test_interview3.cpp.o.provides.build: CMakeFiles/AlgorithmDesign.dir/c_test/test_interview3.cpp.o
 
 
 # Object files for target AlgorithmDesign
 AlgorithmDesign_OBJECTS = \
-"CMakeFiles/AlgorithmDesign.dir/test_memcpy.cpp.o"
+"CMakeFiles/AlgorithmDesign.dir/c_test/test_interview3.cpp.o"
 
 # External object files for target AlgorithmDesign
 AlgorithmDesign_EXTERNAL_OBJECTS =
 
-AlgorithmDesign: CMakeFiles/AlgorithmDesign.dir/test_memcpy.cpp.o
+AlgorithmDesign: CMakeFiles/AlgorithmDesign.dir/c_test/test_interview3.cpp.o
 AlgorithmDesign: CMakeFiles/AlgorithmDesign.dir/build.make
 AlgorithmDesign: CMakeFiles/AlgorithmDesign.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tsf/CLionProjects/AlgorithmDesign/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable AlgorithmDesign"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tsf/CLionProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable AlgorithmDesign"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/AlgorithmDesign.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -99,7 +99,7 @@ CMakeFiles/AlgorithmDesign.dir/build: AlgorithmDesign
 
 .PHONY : CMakeFiles/AlgorithmDesign.dir/build
 
-CMakeFiles/AlgorithmDesign.dir/requires: CMakeFiles/AlgorithmDesign.dir/test_memcpy.cpp.o.requires
+CMakeFiles/AlgorithmDesign.dir/requires: CMakeFiles/AlgorithmDesign.dir/c_test/test_interview3.cpp.o.requires
 
 .PHONY : CMakeFiles/AlgorithmDesign.dir/requires
 
@@ -108,6 +108,6 @@ CMakeFiles/AlgorithmDesign.dir/clean:
 .PHONY : CMakeFiles/AlgorithmDesign.dir/clean
 
 CMakeFiles/AlgorithmDesign.dir/depend:
-	cd /home/tsf/CLionProjects/AlgorithmDesign/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tsf/CLionProjects/AlgorithmDesign /home/tsf/CLionProjects/AlgorithmDesign /home/tsf/CLionProjects/AlgorithmDesign/cmake-build-debug /home/tsf/CLionProjects/AlgorithmDesign/cmake-build-debug /home/tsf/CLionProjects/AlgorithmDesign/cmake-build-debug/CMakeFiles/AlgorithmDesign.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tsf/CLionProject/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tsf/CLionProject /home/tsf/CLionProject /home/tsf/CLionProject/cmake-build-debug /home/tsf/CLionProject/cmake-build-debug /home/tsf/CLionProject/cmake-build-debug/CMakeFiles/AlgorithmDesign.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/AlgorithmDesign.dir/depend
 

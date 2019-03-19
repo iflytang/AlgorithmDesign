@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/tsf/CLionProjects/AlgorithmDesign/test_memcpy.cpp
+/home/tsf/CLionProject/c_test/test_interview3.cpp
 iostream
 -
 cstring

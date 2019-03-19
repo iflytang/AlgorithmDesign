@@ -54,10 +54,10 @@ RM = /home/tsf/Clion/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tsf/CLionProjects/AlgorithmDesign
+CMAKE_SOURCE_DIR = /home/tsf/CLionProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tsf/CLionProjects/AlgorithmDesign/cmake-build-debug
+CMAKE_BINARY_DIR = /home/tsf/CLionProject/cmake-build-debug
 
 #=============================================================================
 # Target rules for target CMakeFiles/AlgorithmDesign.dir
@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /home/tsf/CLionProjects/AlgorithmDesign/cmake-build-debug
 CMakeFiles/AlgorithmDesign.dir/all:
 	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/depend
 	$(MAKE) -f CMakeFiles/AlgorithmDesign.dir/build.make CMakeFiles/AlgorithmDesign.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tsf/CLionProjects/AlgorithmDesign/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target AlgorithmDesign"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tsf/CLionProject/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target AlgorithmDesign"
 .PHONY : CMakeFiles/AlgorithmDesign.dir/all
 
 # Include target in all.
@@ -76,9 +76,9 @@ all: CMakeFiles/AlgorithmDesign.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/AlgorithmDesign.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tsf/CLionProjects/AlgorithmDesign/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tsf/CLionProject/cmake-build-debug/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/AlgorithmDesign.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tsf/CLionProjects/AlgorithmDesign/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tsf/CLionProject/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/AlgorithmDesign.dir/rule
 
 # Convenience name for target.
