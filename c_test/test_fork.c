@@ -10,6 +10,11 @@
 #include <zconf.h>
 #include <wait.h>
 
+void sig_int(int signal) {
+    printf("interrupt");
+    exit(0);
+}
+
 int main() {
 
     char buf[512];
@@ -17,6 +22,8 @@ int main() {
     int status;
 
     printf("%% ");
+
+    signal(SIGINT, sig_int);
 
     while (fgets(buf, 512, stdin) != NULL) {
         if (buf[strlen(buf)-1] == '\n') {
@@ -36,7 +43,7 @@ int main() {
 
 //        printf("3 pid:%d, ppid:%d, uid:%d \n", getpid(), getppid(), getuid());
 
-        if ((pid = waitpid(pid, &status, 0)) < 0) {
+        if ((pid = waitpid(pid, &status, 0)) < 0) { /* wait until child ends. */
             perror("waitpid error.\n");
         }
 //        printf("4 pid:%d, ppid:%d, uid:%d \n", getpid(), getppid(), getuid());

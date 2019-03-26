@@ -7,6 +7,13 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <zconf.h>
+#include <cstring>
+#include <errno.h>
+#include <signal.h>
+
+void warning(int signal) {
+    perror("warning");
+}
 
 
 int main() {
@@ -27,14 +34,22 @@ int main() {
     };
 
 
-    printf("struct size: %d\n", sizeof(struct test_null));    // sizeof = 1
-    printf("struct size: %d\n", sizeof(struct test_align));   // sizeof = 12
+//    printf("struct size: %d\n", sizeof(struct test_null));    // sizeof = 1
+//    printf("struct size: %d\n", sizeof(struct test_align));   // sizeof = 12
 
     /* test_fork, if parent, ret is child pid;
      *            if child, ret is pid=0.
      **/
-    int ret_pid = fork();
-    printf("hello world, ret_pid:%d, pid:%d, ppid:%d, uid:%d \n", ret_pid, getpid(), getppid(), getuid());
+//    int ret_pid = fork();
+//    printf("hello world, ret_pid:%d, pid:%d, ppid:%d, uid:%d \n", ret_pid, getpid(), getppid(), getuid());
+
+
+    /* test error report */
+//    fprintf(stderr, "EACESS: %s\n", strerror(EACCES));
+//    errno = ENOENT;
+//    perror("ENOENT error"); // apppend with error_str, format -> user_str + ':' + err_str + '\n'
+
+
 
     return 0;
 }
