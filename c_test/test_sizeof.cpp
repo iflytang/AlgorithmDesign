@@ -6,6 +6,7 @@
 
 #include <stdlib.h>
 #include <stdio.h>
+#include <zconf.h>
 
 
 int main() {
@@ -28,6 +29,12 @@ int main() {
 
     printf("struct size: %d\n", sizeof(struct test_null));    // sizeof = 1
     printf("struct size: %d\n", sizeof(struct test_align));   // sizeof = 12
+
+    /* test_fork, if parent, ret is child pid;
+     *            if child, ret is pid=0.
+     **/
+    int ret_pid = fork();
+    printf("hello world, ret_pid:%d, pid:%d, ppid:%d, uid:%d \n", ret_pid, getpid(), getppid(), getuid());
 
     return 0;
 }
