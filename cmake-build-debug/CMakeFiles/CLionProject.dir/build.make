@@ -57,41 +57,41 @@ include CMakeFiles/CLionProject.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/CLionProject.dir/flags.make
 
-CMakeFiles/CLionProject.dir/c_test/test_interview3.cpp.o: CMakeFiles/CLionProject.dir/flags.make
-CMakeFiles/CLionProject.dir/c_test/test_interview3.cpp.o: ../c_test/test_interview3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tsf/CLionProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CLionProject.dir/c_test/test_interview3.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CLionProject.dir/c_test/test_interview3.cpp.o -c /home/tsf/CLionProject/c_test/test_interview3.cpp
+CMakeFiles/CLionProject.dir/socket/socketServer.c.o: CMakeFiles/CLionProject.dir/flags.make
+CMakeFiles/CLionProject.dir/socket/socketServer.c.o: ../socket/socketServer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tsf/CLionProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/CLionProject.dir/socket/socketServer.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CLionProject.dir/socket/socketServer.c.o   -c /home/tsf/CLionProject/socket/socketServer.c
 
-CMakeFiles/CLionProject.dir/c_test/test_interview3.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CLionProject.dir/c_test/test_interview3.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tsf/CLionProject/c_test/test_interview3.cpp > CMakeFiles/CLionProject.dir/c_test/test_interview3.cpp.i
+CMakeFiles/CLionProject.dir/socket/socketServer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CLionProject.dir/socket/socketServer.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tsf/CLionProject/socket/socketServer.c > CMakeFiles/CLionProject.dir/socket/socketServer.c.i
 
-CMakeFiles/CLionProject.dir/c_test/test_interview3.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CLionProject.dir/c_test/test_interview3.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tsf/CLionProject/c_test/test_interview3.cpp -o CMakeFiles/CLionProject.dir/c_test/test_interview3.cpp.s
+CMakeFiles/CLionProject.dir/socket/socketServer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CLionProject.dir/socket/socketServer.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tsf/CLionProject/socket/socketServer.c -o CMakeFiles/CLionProject.dir/socket/socketServer.c.s
 
-CMakeFiles/CLionProject.dir/c_test/test_interview3.cpp.o.requires:
+CMakeFiles/CLionProject.dir/socket/socketServer.c.o.requires:
 
-.PHONY : CMakeFiles/CLionProject.dir/c_test/test_interview3.cpp.o.requires
+.PHONY : CMakeFiles/CLionProject.dir/socket/socketServer.c.o.requires
 
-CMakeFiles/CLionProject.dir/c_test/test_interview3.cpp.o.provides: CMakeFiles/CLionProject.dir/c_test/test_interview3.cpp.o.requires
-	$(MAKE) -f CMakeFiles/CLionProject.dir/build.make CMakeFiles/CLionProject.dir/c_test/test_interview3.cpp.o.provides.build
-.PHONY : CMakeFiles/CLionProject.dir/c_test/test_interview3.cpp.o.provides
+CMakeFiles/CLionProject.dir/socket/socketServer.c.o.provides: CMakeFiles/CLionProject.dir/socket/socketServer.c.o.requires
+	$(MAKE) -f CMakeFiles/CLionProject.dir/build.make CMakeFiles/CLionProject.dir/socket/socketServer.c.o.provides.build
+.PHONY : CMakeFiles/CLionProject.dir/socket/socketServer.c.o.provides
 
-CMakeFiles/CLionProject.dir/c_test/test_interview3.cpp.o.provides.build: CMakeFiles/CLionProject.dir/c_test/test_interview3.cpp.o
+CMakeFiles/CLionProject.dir/socket/socketServer.c.o.provides.build: CMakeFiles/CLionProject.dir/socket/socketServer.c.o
 
 
 # Object files for target CLionProject
 CLionProject_OBJECTS = \
-"CMakeFiles/CLionProject.dir/c_test/test_interview3.cpp.o"
+"CMakeFiles/CLionProject.dir/socket/socketServer.c.o"
 
 # External object files for target CLionProject
 CLionProject_EXTERNAL_OBJECTS =
 
-CLionProject: CMakeFiles/CLionProject.dir/c_test/test_interview3.cpp.o
+CLionProject: CMakeFiles/CLionProject.dir/socket/socketServer.c.o
 CLionProject: CMakeFiles/CLionProject.dir/build.make
 CLionProject: CMakeFiles/CLionProject.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tsf/CLionProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable CLionProject"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tsf/CLionProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable CLionProject"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CLionProject.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -99,7 +99,7 @@ CMakeFiles/CLionProject.dir/build: CLionProject
 
 .PHONY : CMakeFiles/CLionProject.dir/build
 
-CMakeFiles/CLionProject.dir/requires: CMakeFiles/CLionProject.dir/c_test/test_interview3.cpp.o.requires
+CMakeFiles/CLionProject.dir/requires: CMakeFiles/CLionProject.dir/socket/socketServer.c.o.requires
 
 .PHONY : CMakeFiles/CLionProject.dir/requires
 

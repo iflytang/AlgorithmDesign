@@ -1,1 +1,1 @@
-/usr/bin/c++   -g   CMakeFiles/CLionProject.dir/c_test/test_interview3.cpp.o  -o CLionProject 
+/usr/bin/cc  -g   CMakeFiles/CLionProject.dir/socket/socketServer.c.o  -o CLionProject -lpthread 

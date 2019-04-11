@@ -123,32 +123,32 @@ CLionProject/fast:
 	$(MAKE) -f CMakeFiles/CLionProject.dir/build.make CMakeFiles/CLionProject.dir/build
 .PHONY : CLionProject/fast
 
-c_test/test_interview3.o: c_test/test_interview3.cpp.o
+socket/socketServer.o: socket/socketServer.c.o
 
-.PHONY : c_test/test_interview3.o
+.PHONY : socket/socketServer.o
 
 # target to build an object file
-c_test/test_interview3.cpp.o:
-	$(MAKE) -f CMakeFiles/CLionProject.dir/build.make CMakeFiles/CLionProject.dir/c_test/test_interview3.cpp.o
-.PHONY : c_test/test_interview3.cpp.o
+socket/socketServer.c.o:
+	$(MAKE) -f CMakeFiles/CLionProject.dir/build.make CMakeFiles/CLionProject.dir/socket/socketServer.c.o
+.PHONY : socket/socketServer.c.o
 
-c_test/test_interview3.i: c_test/test_interview3.cpp.i
+socket/socketServer.i: socket/socketServer.c.i
 
-.PHONY : c_test/test_interview3.i
+.PHONY : socket/socketServer.i
 
 # target to preprocess a source file
-c_test/test_interview3.cpp.i:
-	$(MAKE) -f CMakeFiles/CLionProject.dir/build.make CMakeFiles/CLionProject.dir/c_test/test_interview3.cpp.i
-.PHONY : c_test/test_interview3.cpp.i
+socket/socketServer.c.i:
+	$(MAKE) -f CMakeFiles/CLionProject.dir/build.make CMakeFiles/CLionProject.dir/socket/socketServer.c.i
+.PHONY : socket/socketServer.c.i
 
-c_test/test_interview3.s: c_test/test_interview3.cpp.s
+socket/socketServer.s: socket/socketServer.c.s
 
-.PHONY : c_test/test_interview3.s
+.PHONY : socket/socketServer.s
 
 # target to generate assembly for a file
-c_test/test_interview3.cpp.s:
-	$(MAKE) -f CMakeFiles/CLionProject.dir/build.make CMakeFiles/CLionProject.dir/c_test/test_interview3.cpp.s
-.PHONY : c_test/test_interview3.cpp.s
+socket/socketServer.c.s:
+	$(MAKE) -f CMakeFiles/CLionProject.dir/build.make CMakeFiles/CLionProject.dir/socket/socketServer.c.s
+.PHONY : socket/socketServer.c.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... CLionProject"
-	@echo "... c_test/test_interview3.o"
-	@echo "... c_test/test_interview3.i"
-	@echo "... c_test/test_interview3.s"
+	@echo "... socket/socketServer.o"
+	@echo "... socket/socketServer.i"
+	@echo "... socket/socketServer.s"
 .PHONY : help
 
 

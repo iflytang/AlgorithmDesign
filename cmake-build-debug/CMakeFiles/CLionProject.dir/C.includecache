@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tsf/CLionProject/socket/socketServer.c
+stdio.h
+-
+stdlib.h
+-
+sys/types.h
+-
+sys/stat.h
+-
+netinet/in.h
+-
+sys/socket.h
+-
+string.h
+-
+unistd.h
+-
+signal.h
+-
+sys/ipc.h
+-
+errno.h
+-
+sys/shm.h
+-
+time.h
+-
+arpa/inet.h
+-
+stdbool.h
+-
+pthread.h
+-
+

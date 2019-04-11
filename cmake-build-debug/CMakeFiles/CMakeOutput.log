@@ -541,3 +541,31 @@ make[1]: Leaving directory `/home/tsf/CLionProject/cmake-build-debug/CMakeFiles/
     Feature record: CXX_FEATURE:0cxx_variable_templates
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/tsf/CLionProject/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7ceee/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7ceee.dir/build.make CMakeFiles/cmTC_7ceee.dir/build
+make[1]: Entering directory `/home/tsf/CLionProject/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7ceee.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_7ceee.dir/CheckIncludeFile.c.o   -c /home/tsf/CLionProject/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_7ceee
+/home/tsf/Clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ceee.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_7ceee.dir/CheckIncludeFile.c.o  -o cmTC_7ceee 
+make[1]: Leaving directory `/home/tsf/CLionProject/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/tsf/CLionProject/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_30634/fast"
+/usr/bin/make -f CMakeFiles/cmTC_30634.dir/build.make CMakeFiles/cmTC_30634.dir/build
+make[1]: Entering directory `/home/tsf/CLionProject/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_30634.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_30634.dir/CheckFunctionExists.c.o   -c /home/tsf/Clion/bin/cmake/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_30634
+/home/tsf/Clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30634.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_30634.dir/CheckFunctionExists.c.o  -o cmTC_30634 -lpthread 
+make[1]: Leaving directory `/home/tsf/CLionProject/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+

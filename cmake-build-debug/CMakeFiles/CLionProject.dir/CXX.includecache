@@ -6,9 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/tsf/CLionProject/c_test/test_interview3.cpp
-iostream
+/home/tsf/CLionProject/c_test/test_sizeof.cpp
+stdlib.h
+-
+stdio.h
+-
+zconf.h
 -
 cstring
+-
+errno.h
+-
+signal.h
 -
 
