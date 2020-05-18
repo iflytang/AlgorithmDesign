@@ -17,21 +17,31 @@
 #include <arpa/inet.h>
 #include <stdbool.h>
 
-#define SERVER_ADDR "192.168.109.214"
+#define SERVER_ADDR "192.168.109.212"
 #define CLIENT_ADDR "192.168.109.211"
-#define SOCKET_PORT 2019
+#define SOCKET_PORT 2022
 
 #define MAXLINE 1024
+
+// when interrupted, call this method
+void quit(int signal) {
+    printf("Socket teardowns!\n");
+    exit(EXIT_SUCCESS);
+}
 
 int main() {
 
     int clientfd, sockfd;
     char buf_input[MAXLINE] = {0};
     char buf_send[MAXLINE] = {0};
+    char buf_recv[MAXLINE] = {0};
+
+    size_t input_len = 0;
+    size_t recv_len = 0;
 
     struct sockaddr_in client;
 
-    printf("start\n");
+    printf("start to connect server <%s/%d> ...\n", SERVER_ADDR, SOCKET_PORT);
 
     if ((clientfd = socket(AF_INET, SOCK_STREAM, 0)) < 0) {
         printf("create socket failed.");
@@ -48,16 +58,27 @@ int main() {
         exit(EXIT_FAILURE);
     }
 
-    bool flag = true;
-    size_t input_len = 0;
+
     while (true) {
 
+        signal(SIGUSR1, quit);
+
         if (fgets(buf_input, MAXLINE, stdin) != NULL) {
+            /* SEND DATA TO SERVER. */
             input_len = strlen(buf_input);
             strncat(buf_send, buf_input, input_len);
             send(clientfd, buf_send, input_len, 0);
+
+            /* RECEIVE DATA FROM CLIENT. */
+            recv_len = read(clientfd, buf_recv, MAXLINE);
+            if (recv_len <= 0) {
+                exit(EXIT_FAILURE);
+            }
+            printf("%s\n", buf_recv);
+
             bzero(buf_input, MAXLINE);
             bzero(buf_send, MAXLINE);
+            bzero(buf_recv, MAXLINE);
         } else {
             break;
         }
