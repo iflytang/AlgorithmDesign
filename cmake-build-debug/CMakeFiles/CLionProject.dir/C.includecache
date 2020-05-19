@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -6,37 +6,29 @@
 
 #IncludeRegexTransform: 
 
-/home/tsf/CLionProject/socket/socketServer.c
+/home/tsf/CLionProject/socket/socketClient.c
 stdio.h
--
-stdlib.h
--
-sys/types.h
--
-sys/stat.h
 -
 netinet/in.h
 -
 sys/socket.h
 -
+sys/types.h
+-
 string.h
+-
+stdlib.h
+-
+netdb.h
 -
 unistd.h
 -
 signal.h
--
-sys/ipc.h
--
-errno.h
--
-sys/shm.h
 -
 time.h
 -
 arpa/inet.h
 -
 stdbool.h
--
-pthread.h
 -
 

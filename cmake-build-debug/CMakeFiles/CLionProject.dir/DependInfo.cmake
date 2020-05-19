@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/tsf/CLionProject/socket/socketServer.c" "/home/tsf/CLionProject/cmake-build-debug/CMakeFiles/CLionProject.dir/socket/socketServer.c.o"
+  "/home/tsf/CLionProject/socket/socketClient.c" "/home/tsf/CLionProject/cmake-build-debug/CMakeFiles/CLionProject.dir/socket/socketClient.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

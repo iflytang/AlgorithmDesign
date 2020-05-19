@@ -52,8 +52,6 @@
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.9/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.9/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j24 -f &quot;/home/tsf/CLionProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 CLionProject"/>
@@ -77,8 +75,6 @@
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.9/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.9/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j24 -f &quot;/home/tsf/CLionProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 CLionProject/fast"/>
@@ -88,7 +84,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/tsf/CLionProject/socket/socketServer.c">
+		<Unit filename="/home/tsf/CLionProject/socket/socketClient.c">
 			<Option target="CLionProject"/>
 		</Unit>
 		<Unit filename="/home/tsf/CLionProject/CMakeLists.txt">
