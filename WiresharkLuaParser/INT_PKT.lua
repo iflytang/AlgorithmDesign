@@ -106,8 +106,9 @@ do
         t:add(int_h_mapInfo, v_int_h_mapInfo)
         base = base + INT_h_mapInfo_len
 
+        local v_int_d_dpid
         if (v_int_h_mapInfo & bit_one) then      -- must contain device_id
-            local v_int_d_dpid = buf(base, INT_d_dpid_len)
+            v_int_d_dpid = buf(base, INT_d_dpid_len)
             t:add(int_d_dpid, v_int_d_dpid)
             base = base + INT_d_dpid_len
         else
