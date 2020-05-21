@@ -57,27 +57,27 @@ include CMakeFiles/CLionProject.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/CLionProject.dir/flags.make
 
-CMakeFiles/CLionProject.dir/socket/socketClient.c.o: CMakeFiles/CLionProject.dir/flags.make
-CMakeFiles/CLionProject.dir/socket/socketClient.c.o: ../socket/socketClient.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tsf/CLionProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/CLionProject.dir/socket/socketClient.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CLionProject.dir/socket/socketClient.c.o   -c /home/tsf/CLionProject/socket/socketClient.c
+CMakeFiles/CLionProject.dir/c_test/test.c.o: CMakeFiles/CLionProject.dir/flags.make
+CMakeFiles/CLionProject.dir/c_test/test.c.o: ../c_test/test.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tsf/CLionProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/CLionProject.dir/c_test/test.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CLionProject.dir/c_test/test.c.o   -c /home/tsf/CLionProject/c_test/test.c
 
-CMakeFiles/CLionProject.dir/socket/socketClient.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CLionProject.dir/socket/socketClient.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tsf/CLionProject/socket/socketClient.c > CMakeFiles/CLionProject.dir/socket/socketClient.c.i
+CMakeFiles/CLionProject.dir/c_test/test.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CLionProject.dir/c_test/test.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tsf/CLionProject/c_test/test.c > CMakeFiles/CLionProject.dir/c_test/test.c.i
 
-CMakeFiles/CLionProject.dir/socket/socketClient.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CLionProject.dir/socket/socketClient.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tsf/CLionProject/socket/socketClient.c -o CMakeFiles/CLionProject.dir/socket/socketClient.c.s
+CMakeFiles/CLionProject.dir/c_test/test.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CLionProject.dir/c_test/test.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tsf/CLionProject/c_test/test.c -o CMakeFiles/CLionProject.dir/c_test/test.c.s
 
 # Object files for target CLionProject
 CLionProject_OBJECTS = \
-"CMakeFiles/CLionProject.dir/socket/socketClient.c.o"
+"CMakeFiles/CLionProject.dir/c_test/test.c.o"
 
 # External object files for target CLionProject
 CLionProject_EXTERNAL_OBJECTS =
 
-CLionProject: CMakeFiles/CLionProject.dir/socket/socketClient.c.o
+CLionProject: CMakeFiles/CLionProject.dir/c_test/test.c.o
 CLionProject: CMakeFiles/CLionProject.dir/build.make
 CLionProject: CMakeFiles/CLionProject.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tsf/CLionProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable CLionProject"

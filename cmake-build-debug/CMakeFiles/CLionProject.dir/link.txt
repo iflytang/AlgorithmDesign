@@ -1,1 +1,1 @@
-/usr/bin/cc -g   CMakeFiles/CLionProject.dir/socket/socketClient.c.o  -o CLionProject -lpthread 
+/usr/bin/cc -g   CMakeFiles/CLionProject.dir/c_test/test.c.o  -o CLionProject -lpthread 

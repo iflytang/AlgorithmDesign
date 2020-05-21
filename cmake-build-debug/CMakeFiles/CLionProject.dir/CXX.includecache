@@ -6,11 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/tsf/CLionProject/c_test/test.c
-stdio.h
+/home/tsf/CLionProject/c_test/test_ntohl.cpp
+iostream
 -
-stdlib.h
+vector
 -
-stdint.h
+cstring
+-
+netinet/in.h
 -
 

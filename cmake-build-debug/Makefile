@@ -123,32 +123,32 @@ CLionProject/fast:
 	$(MAKE) -f CMakeFiles/CLionProject.dir/build.make CMakeFiles/CLionProject.dir/build
 .PHONY : CLionProject/fast
 
-socket/socketClient.o: socket/socketClient.c.o
+c_test/test.o: c_test/test.c.o
 
-.PHONY : socket/socketClient.o
+.PHONY : c_test/test.o
 
 # target to build an object file
-socket/socketClient.c.o:
-	$(MAKE) -f CMakeFiles/CLionProject.dir/build.make CMakeFiles/CLionProject.dir/socket/socketClient.c.o
-.PHONY : socket/socketClient.c.o
+c_test/test.c.o:
+	$(MAKE) -f CMakeFiles/CLionProject.dir/build.make CMakeFiles/CLionProject.dir/c_test/test.c.o
+.PHONY : c_test/test.c.o
 
-socket/socketClient.i: socket/socketClient.c.i
+c_test/test.i: c_test/test.c.i
 
-.PHONY : socket/socketClient.i
+.PHONY : c_test/test.i
 
 # target to preprocess a source file
-socket/socketClient.c.i:
-	$(MAKE) -f CMakeFiles/CLionProject.dir/build.make CMakeFiles/CLionProject.dir/socket/socketClient.c.i
-.PHONY : socket/socketClient.c.i
+c_test/test.c.i:
+	$(MAKE) -f CMakeFiles/CLionProject.dir/build.make CMakeFiles/CLionProject.dir/c_test/test.c.i
+.PHONY : c_test/test.c.i
 
-socket/socketClient.s: socket/socketClient.c.s
+c_test/test.s: c_test/test.c.s
 
-.PHONY : socket/socketClient.s
+.PHONY : c_test/test.s
 
 # target to generate assembly for a file
-socket/socketClient.c.s:
-	$(MAKE) -f CMakeFiles/CLionProject.dir/build.make CMakeFiles/CLionProject.dir/socket/socketClient.c.s
-.PHONY : socket/socketClient.c.s
+c_test/test.c.s:
+	$(MAKE) -f CMakeFiles/CLionProject.dir/build.make CMakeFiles/CLionProject.dir/c_test/test.c.s
+.PHONY : c_test/test.c.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... CLionProject"
-	@echo "... socket/socketClient.o"
-	@echo "... socket/socketClient.i"
-	@echo "... socket/socketClient.s"
+	@echo "... c_test/test.o"
+	@echo "... c_test/test.i"
+	@echo "... c_test/test.s"
 .PHONY : help
 
 

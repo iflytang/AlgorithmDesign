@@ -84,7 +84,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/tsf/CLionProject/socket/socketClient.c">
+		<Unit filename="/home/tsf/CLionProject/c_test/test.c">
 			<Option target="CLionProject"/>
 		</Unit>
 		<Unit filename="/home/tsf/CLionProject/CMakeLists.txt">
