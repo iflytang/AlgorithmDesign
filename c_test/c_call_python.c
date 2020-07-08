@@ -1,47 +1,38 @@
-//
-// Created by tsf on 20-7-5.
-//
+// pyapi.c
+// #include <python3.5m/Python.h>
+#include "/home/tsf/anaconda3/envs/juniper/include/python3.5m/Python.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
-#include "stdafx.h"
-#include "Python.h"
- 
-int PyCall( const char * module, const char * function, const char *format, ... )
+int main()
 {
- PyObject* pMod    = NULL;
- PyObject* pFunc   = NULL;
- PyObject* pParm   = NULL;
- PyObject* pRetVal = NULL;
- 
- //导入模块
- if( !(pMod = PyImport_ImportModule(module) ) ){
-  return -1;
- }
- //查找函数
- if( !(pFunc = PyObject_GetAttrString(pMod, function) ) ){
-  return -2;
- }
- 
- //创建参数
- va_list vargs;
- va_start( vargs, format );
- pParm = Py_VaBuildValue( format, vargs );
- va_end(vargs);
- 
- //函数调用
- pRetVal = PyEval_CallObject( pFunc, pParm);
- 
- int ret;
- PyArg_Parse( pRetVal, "i", &ret );
- return ret;
-}
- 
- 
-int _tmain(int argc, _TCHAR* argv[])
-{
-	Py_Initialize();
-	printf( "ret = %d\n", PyCall( "pytest", "add", "(ii)",  99, 1));
-	Py_Finalize();
- 
-	return 0;
-}
+    Py_Initialize();
 
+    // 将当前目录加入sys.path
+    PyRun_SimpleString("import sys");
+    PyRun_SimpleString("sys.path.append('./')");
+//    PyRun_SimpleString("sys.path.append('~/anaconda3/envs/juniper/')");
+
+
+    // 导入hello.py模块
+    PyObject *pmodule = PyImport_ImportModule("python_func");
+
+    // 获得函数xprint对象，并调用，输出“hello world\n”
+    PyObject *pfunc = PyObject_GetAttrString(pmodule, "xprint");
+    PyObject *result = PyObject_CallFunction(pfunc, NULL);
+    int ret;
+    PyArg_Parse(result, "i", &ret);
+    printf("ret: %d\n", ret);
+
+    // 获得类Hello并生成实例pinstance，并调用print成员函数，输出“5 6\n”
+    PyObject *pclass    = PyObject_GetAttrString(pmodule, "Hello");
+    PyObject *arg       = Py_BuildValue("(i)", 5);
+    PyObject *pinstance = PyObject_Call(pclass, arg, NULL);
+    PyObject_CallMethod(pinstance, "printx", "i", 6);
+
+
+
+    Py_Finalize();
+    return 0;
+}
