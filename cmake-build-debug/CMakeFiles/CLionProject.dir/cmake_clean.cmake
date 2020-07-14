@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/CLionProject.dir/c_test/test.c.o"
+  "CMakeFiles/CLionProject.dir/socket/c_tcp_cli_sock.c.o"
   "CLionProject.pdb"
   "CLionProject"
 )

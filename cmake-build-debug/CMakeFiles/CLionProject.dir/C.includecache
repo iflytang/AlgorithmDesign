@@ -6,11 +6,31 @@
 
 #IncludeRegexTransform: 
 
-/home/tsf/CLionProject/c_test/test.c
+/home/tsf/CLionProject/socket/c_tcp_cli_sock.c
 stdio.h
+-
+netinet/in.h
+-
+sys/socket.h
+-
+sys/types.h
+-
+string.h
 -
 stdlib.h
 -
-stdint.h
+netdb.h
+-
+unistd.h
+-
+signal.h
+-
+time.h
+-
+arpa/inet.h
+-
+stdbool.h
+-
+errno.h
 -
 
