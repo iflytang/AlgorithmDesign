@@ -16,6 +16,7 @@
 #include <time.h>
 #include <arpa/inet.h>
 #include <stdbool.h>
+#include <errno.h>
 
 #define SERVER_ADDR "192.168.109.214"
 #define CLIENT_ADDR "192.168.109.214"
@@ -53,11 +54,18 @@ int main() {
     client.sin_port = htons(SOCKET_PORT);
     inet_pton(AF_INET, SERVER_ADDR, &client.sin_addr);
 
-    if ((sockfd = connect(clientfd, (struct sockaddr *) &client, sizeof(client))) > 0) {
-        printf("connect socket failed.");
-        exit(EXIT_FAILURE);
+    int connect_num = 0;
+    re_connect:
+    if ((sockfd = connect(clientfd, (struct sockaddr *) &client, sizeof(client))) < 0) {
+        printf("connect socket failed.\n");
+        sleep(1);
+        if (connect_num < 1000) {
+            goto re_connect;
+        }
+//            exit(EXIT_FAILURE);
     }
-    printf("socket connected. \n");
+
+    printf("socket connected. client_fd:%d, sockfd:%d \n", clientfd, sockfd);
 
 
     int recv_num = 0;
@@ -72,9 +80,21 @@ int main() {
             break;
         }
 
-        printf("cli_recv[%d]: %s, len: %d, double: %.16g/%dB, double: %lf\n", ++recv_num, buf_recv, strlen(buf_recv), atof(buf_recv), sizeof(atof(buf_recv)), strtod(buf_recv, NULL));
-        char * msg = "ok";
+        double ber = strtod(buf_recv, NULL);
+
+        printf("cli_recv[%d]: %s, len: %d, double: %.16g/%dB, double: %.16g\n",
+                ++recv_num, buf_recv, strlen(buf_recv), atof(buf_recv), sizeof(atof(buf_recv)), ber);
+
+        char msg[20] = "ok, ack: ";
+        char recv_num_str[10] = "";
+        sprintf(recv_num_str, "%d", recv_num);
+        strcat(msg, recv_num_str);
         send(clientfd, msg, strlen(msg), 0);
+//        send(clientfd, recv_num_str, strlen(recv_num_str), 0);
+
+//        char * msg = "ok";
+//        send(clientfd, msg, strlen(msg), 0);
+
         bzero(buf_recv, MAXLINE);
 //
 //        if (fgets(buf_input, MAXLINE, stdin) != NULL) {
