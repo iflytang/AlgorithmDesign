@@ -6,13 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/tsf/CLionProject/c_test/test_ntohl.cpp
+/home/tsf/CLionProject/c_test/c_call_python.cpp
+python3.5m/Python.h
+-
 iostream
 -
-vector
--
-cstring
--
-netinet/in.h
+string
 -
 
