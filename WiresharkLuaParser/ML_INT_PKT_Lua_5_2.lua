@@ -17,7 +17,7 @@ require "bit32"     -- bit operation
 do
 
     -- supported mapInfo
-    local CPU_BASED_MAPINFO = 0x02ff            -- ovs-pof
+    local CPU_BASED_MAPINFO = 0x06ff            -- ovs-pof
     local NP_BASED_MAPINFO = 0x031f             -- Tofino
 
     -- INT header byte {offset, length}
@@ -39,6 +39,7 @@ do
     local INT_d_n_bytes_len = 8
     local INT_d_queue_len = 4
     local INT_d_fwd_acts_len = 4
+    local INT_d_ber_len = 8
 
     -- INT type value
     local INT_type_val = 0x0908
@@ -74,6 +75,9 @@ do
     local int_d_queue = ProtoField.uint32("INT.queue", "queue", base.DEC)        -- not supported by ovs-pof
     local int_d_fwd_acts = ProtoField.uint32("INT.fwd_acts", "fwd_acts", base.HEX)
 
+    -- optical layer data
+    local int_d_ber = ProtoField.double("INT.BER", "BER", base.DOUBLE)
+
     -- proto fields
     INT_proto.fields = {
         int_h_type,
@@ -99,7 +103,9 @@ do
         int_d_n_packets,
         int_d_n_bytes,
         int_d_queue,                  -- not supported by ovs-pof
-        int_d_fwd_acts
+        int_d_fwd_acts,
+
+        int_d_ber,              -- optical layer data
     }
 
     local data_dis = Dissector.get("data")
@@ -181,8 +187,8 @@ do
                 end
 
                 if (bit32.band(switch_mapInfo, bit32.lshift(byte_one, 5)) ~= byte_zero) then
-                    local v_int_d_bandwidth = buf(base, INT_d_bandwidth_len):le_float()
-                    t:add(int_d_bandwidth, v_int_d_bandwidth)
+                    local v_int_d_bandwidth = buf(base, INT_d_bandwidth_len)
+                    t:add(int_d_bandwidth, v_int_d_bandwidth:le_float())
                     base = base + INT_d_bandwidth_len
                 end
 
@@ -209,6 +215,13 @@ do
                     t:add(int_d_fwd_acts, v_int_d_fwd_acts)
                     base = base + INT_d_fwd_acts_len
                 end
+
+                if (bit32.band(switch_mapInfo, bit32.lshift(byte_one, 10)) ~= byte_zero) then
+                    local v_int_d_ber = buf(base, INT_d_ber_len)
+                    t:add(int_d_ber, v_int_d_ber:le_float())
+                    base = base + INT_d_ber_len
+                end
+
             else                                         -- tofino
                 local switch_mapInfo = bit32.band(v_int_h_mapInfo:uint(), NP_BASED_MAPINFO)
 
@@ -240,7 +253,7 @@ do
 
                 if (bit32.band(switch_mapInfo, bit32.lshift(byte_one, 5)) ~= byte_zero) then
                     local v_int_d_bandwidth = buf(base, INT_d_bandwidth_len):le_float()
-                    t:add(int_d_bandwidth, v_int_d_bandwidth)
+                    t:add(int_d_bandwidth, v_int_d_bandwidth:le_float())
                     base = base + INT_d_bandwidth_len
                 end
 
@@ -267,6 +280,13 @@ do
                     t:add(int_d_fwd_acts, v_int_d_fwd_acts)
                     base = base + INT_d_fwd_acts_len
                 end
+
+                if (bit32.band(switch_mapInfo, bit32.lshift(byte_one, 10)) ~= byte_zero) then
+                    local v_int_d_ber = buf(base, INT_d_ber_len)
+                    t:add(int_d_ber, v_int_d_ber:le_float())
+                    base = base + INT_d_ber_len
+                end
+
             end
 
         end
