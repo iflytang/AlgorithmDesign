@@ -54,6 +54,8 @@ do
     local int_h_len = ProtoField.uint8("INT.int_ttl", "int_ttl", base.DEC)
     local int_h_mapInfo = ProtoField.uint16("INT.mapInfo", "mapInfo", base.HEX)
 
+    local int_h_hop = ProtoField.uint8("INT.Hop", "Hop", base.DEC)
+
     local int_d_dpid = ProtoField.uint32("INT.device_id", "device_id", base.HEX)
     local int_d_dpid_ovs_pof = ProtoField.uint32("INT.device_id", "device_id (ovs-pof)", base.HEX)
     local int_d_dpid_tofino = ProtoField.uint32("INT.device_id", "device_id (tofino)", base.HEX)
@@ -141,20 +143,19 @@ do
         rt:add(int_h_mapInfo, v_int_h_mapInfo)
         base = base + INT_h_mapInfo_len
 
-
-        local v_int_d_dpid = 0
-        if (bit32.band(v_int_h_mapInfo:uint(), bit32.lshift(byte_one, 0))) then      -- must contain device_id
-            v_int_d_dpid = buf(base, INT_d_dpid_len)
-            base = base + INT_d_dpid_len
-        else
-            --return false
-        end
-
         local t
         for i=1,hop do
 
-            t = rt:add(int_h_mapInfo, v_int_h_mapInfo)
-            t:set_text("Hop " .. i)
+            t = rt:add(int_h_hop, " " .. i)
+            t:set_text("Hop " .. (hop+1 - i))
+
+            local v_int_d_dpid = 0
+            if (bit32.band(v_int_h_mapInfo:uint(), bit32.lshift(byte_one, 0))) then      -- must contain device_id
+                v_int_d_dpid = buf(base, INT_d_dpid_len)
+                base = base + INT_d_dpid_len
+            else
+                --return false
+            end
 
             -- ovs-pof and tofino, distinguished by device_id
             if (bit32.band(v_int_d_dpid:uint(), switch_mask) == byte_zero) then   -- ovs-pof
