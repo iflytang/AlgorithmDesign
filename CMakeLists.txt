@@ -3,7 +3,8 @@ project(CLionProject)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES socket/c_tcp_cli_sock.c)
+#set(SOURCE_FILES socket/c_tcp_cli_sock.c)
+set(SOURCE_FILES socket/socket_server_thread.c)
 #set(SOURCE_FILES c_test/test.c)
 
 add_executable(CLionProject ${SOURCE_FILES})

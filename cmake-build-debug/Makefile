@@ -123,32 +123,32 @@ CLionProject/fast:
 	$(MAKE) -f CMakeFiles/CLionProject.dir/build.make CMakeFiles/CLionProject.dir/build
 .PHONY : CLionProject/fast
 
-socket/c_tcp_cli_sock.o: socket/c_tcp_cli_sock.c.o
+socket/socket_server_thread.o: socket/socket_server_thread.c.o
 
-.PHONY : socket/c_tcp_cli_sock.o
+.PHONY : socket/socket_server_thread.o
 
 # target to build an object file
-socket/c_tcp_cli_sock.c.o:
-	$(MAKE) -f CMakeFiles/CLionProject.dir/build.make CMakeFiles/CLionProject.dir/socket/c_tcp_cli_sock.c.o
-.PHONY : socket/c_tcp_cli_sock.c.o
+socket/socket_server_thread.c.o:
+	$(MAKE) -f CMakeFiles/CLionProject.dir/build.make CMakeFiles/CLionProject.dir/socket/socket_server_thread.c.o
+.PHONY : socket/socket_server_thread.c.o
 
-socket/c_tcp_cli_sock.i: socket/c_tcp_cli_sock.c.i
+socket/socket_server_thread.i: socket/socket_server_thread.c.i
 
-.PHONY : socket/c_tcp_cli_sock.i
+.PHONY : socket/socket_server_thread.i
 
 # target to preprocess a source file
-socket/c_tcp_cli_sock.c.i:
-	$(MAKE) -f CMakeFiles/CLionProject.dir/build.make CMakeFiles/CLionProject.dir/socket/c_tcp_cli_sock.c.i
-.PHONY : socket/c_tcp_cli_sock.c.i
+socket/socket_server_thread.c.i:
+	$(MAKE) -f CMakeFiles/CLionProject.dir/build.make CMakeFiles/CLionProject.dir/socket/socket_server_thread.c.i
+.PHONY : socket/socket_server_thread.c.i
 
-socket/c_tcp_cli_sock.s: socket/c_tcp_cli_sock.c.s
+socket/socket_server_thread.s: socket/socket_server_thread.c.s
 
-.PHONY : socket/c_tcp_cli_sock.s
+.PHONY : socket/socket_server_thread.s
 
 # target to generate assembly for a file
-socket/c_tcp_cli_sock.c.s:
-	$(MAKE) -f CMakeFiles/CLionProject.dir/build.make CMakeFiles/CLionProject.dir/socket/c_tcp_cli_sock.c.s
-.PHONY : socket/c_tcp_cli_sock.c.s
+socket/socket_server_thread.c.s:
+	$(MAKE) -f CMakeFiles/CLionProject.dir/build.make CMakeFiles/CLionProject.dir/socket/socket_server_thread.c.s
+.PHONY : socket/socket_server_thread.c.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... CLionProject"
-	@echo "... socket/c_tcp_cli_sock.o"
-	@echo "... socket/c_tcp_cli_sock.i"
-	@echo "... socket/c_tcp_cli_sock.s"
+	@echo "... socket/socket_server_thread.o"
+	@echo "... socket/socket_server_thread.i"
+	@echo "... socket/socket_server_thread.s"
 .PHONY : help
 
 
