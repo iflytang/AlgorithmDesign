@@ -19,7 +19,7 @@
 #include <semaphore.h>
 
 #define SERVER_ADDR "192.168.109.221"
-#define SOCKET_PORT 2020
+#define SOCKET_PORT 2021
 
 #define MAXLINE 1024
 #define PENDING_QUEUE 10
@@ -69,7 +69,7 @@ static int sock_recv_thread() {
         }
         printf("accept client connection from %s\n", inet_ntoa(client.sin_addr));
 
-        /*int recv_flag = 1;
+        int recv_flag = 1;
         while (recv_flag) {
             int ret = recv(clientfd, buf_recv, MAXLINE, 0);
             printf("recv: %s\n", buf_recv);
@@ -85,11 +85,11 @@ static int sock_recv_thread() {
                 send_flag = 0;
             }
             bzero(buf_recv, MAXLINE);
-            printf("send_flag: %d\n", send_flag);
-        }*/
+//            printf("send_flag: %d\n", send_flag);
+        }
 
 
-        char buf_send[MAXLINE] = {0};
+        /*char buf_send[MAXLINE] = {0};
         send_flag = 1;
         int send_times = 0;
         while (send_flag) {
@@ -102,7 +102,7 @@ static int sock_recv_thread() {
             sleep(1);
             bzero(buf_send, MAXLINE);
             printf("server send:%d,  %.16g\n", send_times, ber);
-        }
+        }*/
 
 
     }
