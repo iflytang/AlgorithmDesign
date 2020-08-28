@@ -156,7 +156,7 @@ do
             end
 
             -- ovs-pof and tofino, distinguished by device_id
-            if (bit32.band(v_int_d_dpid:uint(), switch_mask) == 0xff) then   -- ovs-pof
+            if (bit32.band(v_int_d_dpid:uint(), switch_mask) == switch_mask) then   -- ovs-pof
                 local switch_mapInfo = bit32.band(v_int_h_mapInfo:uint(), CPU_BASED_MAPINFO)
 
                 t:add(int_d_dpid, v_int_d_dpid)
