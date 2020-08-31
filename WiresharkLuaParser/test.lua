@@ -7,6 +7,7 @@
 -- To change this template use File | Settings | File Templates.
 --
 
+-- usage: lua test.lua
 
 require("bit32")
 
@@ -85,3 +86,13 @@ if (bit32.band(switch_mapInfo, bit32.lshift(bit_one, 9)) ~= 0x00) then
     print(string.format("%04x\t %04x\t = %04x", switch_mapInfo, bit32.lshift(bit_one, 9), bit32.band(switch_mapInfo, bit32.lshift(bit_one, 9))))
     print("test 9: " .. bit32.band(switch_mapInfo, bit32.lshift(bit_one, 9)) .. "\n")
 end
+
+local v_test = math.ceil(12.3 / 2)
+print(v_test)
+
+local function get_order_of_ber(ber)
+   return math.ceil(math.abs(math.log(ber, 10)))
+end
+
+local order = get_order_of_ber(4021)
+print(order)
