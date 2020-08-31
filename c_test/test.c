@@ -11,6 +11,16 @@
 #define TIME_WRITE_THRESH          49999.0     // us, can be adjusted
 #define BD_WIN_NUM   (int) ceil(ONE_SECOND_IN_US / TIME_WRITE_THRESH)
 
+static double dBm_to_Pmw(double dBm) {
+    double Pmw = pow(10.0, dBm / 10.0);
+    return Pmw;
+}
+
+static double Pmw_to_dBm(double Pmw) {
+    double dBm = 10.0 * log10(Pmw);
+    return dBm;
+}
+
 int main() {
    /* int a, b;
 
@@ -53,6 +63,24 @@ int main() {
     printf("%f\n", a);
     a = round(a1 * 10000.0) / 10000.0;
     printf("%f\n", a);
+
+    int swid = 0xffffff01;
+    printf("test_swid: %x\n", (0xff000000 & swid));
+
+    double x = 12.12345;
+    printf("x: %d\n", (int) (0.05/0.02));
+    printf("ceil_x: %d\n", (int) ceil(0.05/0.02));
+
+    double dBm_arr[4] = {-67.7, -68.3, -68.9, -69.3};
+    double Pmw_sum = 0, dBm_sum = 0;
+    int idx = 0;
+    for (; idx < 4; idx++) {
+        Pmw_sum += dBm_to_Pmw(dBm_arr[idx]);
+    }
+    dBm_sum = Pmw_to_dBm(Pmw_sum);
+    printf("Pmw_sum: %lf, dBm_sum: %lf\n", Pmw_sum, dBm_sum);
+
+
 
     return 0;
 }
